@@ -1,0 +1,37 @@
+{
+  "status": "Propuesta pendiente de elección del CEO",
+  "recommended": "pulso",
+  "directions": {
+    "pulso": {
+      "name": "Pulso",
+      "colors": {
+        "verde": "#164D43",
+        "lima": "#D9FA79",
+        "blanco": "#FAFCF9",
+        "cielo": "#DCEAF7",
+        "tinta": "#183B35"
+      },
+      "font": "Manrope"
+    },
+    "claro": {
+      "name": "Claro",
+      "colors": {
+        "azul": "#2855F9",
+        "tinta": "#172447",
+        "hielo": "#EFF4FF",
+        "blanco": "#FFFFFF"
+      },
+      "font": "Manrope"
+    },
+    "cercano": {
+      "name": "Cercano",
+      "colors": {
+        "coral": "#F16D57",
+        "vino": "#442438",
+        "rosa": "#FFF2EC",
+        "blanco": "#FFFFFF"
+      },
+      "font": "Manrope + Georgia como propuesta editorial"
+    }
+  }
+}

@@ -1,0 +1,1054 @@
+{
+  "schema_version": 1,
+  "scope": "/workspace/kevoro-web/.agents/skills",
+  "date_local": "2026-11-18",
+  "timezone": "America/Bogota",
+  "retrieved_at_utc": "2026-11-19T02:44:50Z",
+  "files": [
+    {
+      "path": ".agents/skills/frontend-design/LICENSE.txt",
+      "source": {
+        "repository": "https://github.com/anthropics/skills",
+        "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+        "path": "skills/frontend-design/LICENSE.txt",
+        "blob_sha": "f433b1a53f5b830a205fd2df78e2b34974656c7b"
+      },
+      "license": "Apache-2.0",
+      "changes": [],
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": ".agents/skills/frontend-design/SKILL.md",
+      "source": {
+        "repository": "https://github.com/anthropics/skills",
+        "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+        "path": "skills/frontend-design/SKILL.md",
+        "blob_sha": "a5333457c414d20d625f307df945842c0952ecc3"
+      },
+      "license": "Apache-2.0",
+      "changes": [
+        "Added Spanish Kevoro precedence and truthful-brand rules; replaced automatic brief confirmation with business-decision clarification."
+      ],
+      "sha256": "b4bb6cf158995b1e42a119147185197a700b2e075aa0fb00fad9994cd47f54df"
+    },
+    {
+      "path": ".agents/skills/webapp-testing/LICENSE.txt",
+      "source": {
+        "repository": "https://github.com/anthropics/skills",
+        "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+        "path": "skills/webapp-testing/LICENSE.txt",
+        "blob_sha": "4f881c52d1f72f4cfb720e339e2d35c3058d01a9"
+      },
+      "license": "Apache-2.0",
+      "changes": [],
+      "sha256": "14099b9c79d031b9d4b32c736a4e20f2b941f52dd79500532d62d26dd716110c"
+    },
+    {
+      "path": ".agents/skills/webapp-testing/SKILL.md",
+      "source": {
+        "repository": "https://github.com/anthropics/skills",
+        "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+        "path": "skills/webapp-testing/SKILL.md",
+        "blob_sha": "4726215301db64a0cc4d41fc3219c61f37a30f4a"
+      },
+      "license": "Apache-2.0",
+      "changes": [
+        "Spanish Kevoro/local-isolated test rules; reviewed shell helper guidance; explicit UI readiness instead of blanket networkidle/fixed sleeps; localhost static HTML."
+      ],
+      "sha256": "21e5cbc0d1ce644dbc6d4f7f69f2d7048f4fbc755b182a16d611257a8f33e35b"
+    },
+    {
+      "path": ".agents/skills/webapp-testing/examples/console_logging.py",
+      "source": {
+        "repository": "https://github.com/anthropics/skills",
+        "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+        "path": "skills/webapp-testing/examples/console_logging.py",
+        "blob_sha": "9329b5e232ed53d944bfe95e750070117d31b9ab"
+      },
+      "license": "Apache-2.0",
+      "changes": [
+        "Marked modified; localhost-only HTTP request route, /tmp artifact paths, no fixed sleeps; static example served on localhost."
+      ],
+      "sha256": "5f7fd9f6a1c468eb866d5412f48e15091a09f7fc7f1894ea760379293c30787b"
+    },
+    {
+      "path": ".agents/skills/webapp-testing/examples/element_discovery.py",
+      "source": {
+        "repository": "https://github.com/anthropics/skills",
+        "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+        "path": "skills/webapp-testing/examples/element_discovery.py",
+        "blob_sha": "917ba72f52421a1b324f93ae8e38af72010a87b9"
+      },
+      "license": "Apache-2.0",
+      "changes": [
+        "Marked modified; localhost-only HTTP request route, /tmp artifact paths, no fixed sleeps; static example served on localhost."
+      ],
+      "sha256": "015b57d743b8434e1d53966df6c275c96c468a6b57f6dc4d6c0d0fce8c544dd6"
+    },
+    {
+      "path": ".agents/skills/webapp-testing/examples/static_html_automation.py",
+      "source": {
+        "repository": "https://github.com/anthropics/skills",
+        "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+        "path": "skills/webapp-testing/examples/static_html_automation.py",
+        "blob_sha": "90bbedcc08cdb345c74fb938ebad02c0baf56603"
+      },
+      "license": "Apache-2.0",
+      "changes": [
+        "Marked modified; localhost-only HTTP request route, /tmp artifact paths, no fixed sleeps; static example served on localhost."
+      ],
+      "sha256": "cdd97bf95184b709e6a6adf90b4ff77422661ed70e4a5efbdbc85781285e2ede"
+    },
+    {
+      "path": ".agents/skills/webapp-testing/scripts/with_server.py",
+      "source": {
+        "repository": "https://github.com/anthropics/skills",
+        "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+        "path": "skills/webapp-testing/scripts/with_server.py",
+        "blob_sha": "431f2eba16b268b7f3e2ae4daae9db41c0289b6d"
+      },
+      "license": "Apache-2.0",
+      "changes": [],
+      "sha256": "c558ba21a3cea020cdf9c059e9c1e3119e01c23509227ee23fb4ae4f556e1373"
+    },
+    {
+      "path": ".agents/skills/impeccable-polish/SKILL.md",
+      "source": {
+        "repository": "https://github.com/pbakaus/impeccable",
+        "commit": "b49177d32788f2dc585c42831d845dacf1ebed2c",
+        "path": ".agents/skills/impeccable/reference/polish.md",
+        "blob_sha": "febfa398009edcc39cbda80d4aad8ba8d008795b"
+      },
+      "license": "Apache-2.0",
+      "changes": [
+        "Standalone Agent Skills frontmatter; Kevoro policy note; removed binary/hooks/critique-storage dependency and native-platform references; browser localhost with webapp-testing; ready for review instead of deployment."
+      ],
+      "sha256": "81a384b94806585c08d79d1620c334300463cb3283f80f4d2b81ab5fd95cb7a9"
+    },
+    {
+      "path": ".agents/skills/impeccable-polish/LICENSE",
+      "source": {
+        "repository": "https://github.com/pbakaus/impeccable",
+        "commit": "b49177d32788f2dc585c42831d845dacf1ebed2c",
+        "path": "LICENSE",
+        "blob_sha": "bb3f6d23b1f8025514a62a12b51b47d73e3c9aa9"
+      },
+      "license": "Apache-2.0",
+      "changes": [],
+      "sha256": "02bb8c3b4e70190e3986c0404ad2fd8d639b4f534252d82379cc1b502b6d1812"
+    },
+    {
+      "path": ".agents/skills/impeccable-polish/NOTICE.md",
+      "source": {
+        "repository": "https://github.com/pbakaus/impeccable",
+        "commit": "b49177d32788f2dc585c42831d845dacf1ebed2c",
+        "path": "NOTICE.md",
+        "blob_sha": "03538a22d990f52223c976eba9d80dc1ff9e422f"
+      },
+      "license": "Apache-2.0",
+      "changes": [],
+      "sha256": "01bf53e5d24d64e19e9e1c33b24c37cef0d314323df7bf678c6ba22d4528a115"
+    },
+    {
+      "path": ".agents/skills/web-design-guidelines/SKILL.md",
+      "source": {
+        "repository": "https://github.com/vercel-labs/agent-skills",
+        "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+        "path": "skills/web-design-guidelines/SKILL.md",
+        "blob_sha": "ceae92ab319216a68274168fba9b63b998b65997"
+      },
+      "license": "MIT",
+      "changes": [
+        "Kevoro policy note; pinned local rules instead of automatic remote fetch; infer assigned review scope."
+      ],
+      "sha256": "f016ada98b5ab8d10c2924e1cd8a23003debfed28ab83457fa3e8aa082086d61"
+    },
+    {
+      "path": ".agents/skills/web-design-guidelines/references/web-interface-guidelines.md",
+      "source": {
+        "repository": "https://github.com/vercel-labs/web-interface-guidelines",
+        "commit": "434b7f91364665f2f733b310ec54809bf8f37937",
+        "path": "command.md",
+        "blob_sha": "3eb3a212b7b89493922ea418489d4c6f67ae8bd5"
+      },
+      "license": "MIT",
+      "changes": [
+        "Spanish scope/output/case; clarified native keyboard behavior and meaningful autocomplete; context and no legal-certification caveat."
+      ],
+      "sha256": "5b906501e4fb2f1f60f4d08e2f10b5221366cadc92446e6dd156957f7435677d"
+    },
+    {
+      "path": ".agents/skills/web-design-guidelines/LICENSE",
+      "source": {
+        "repository": "https://github.com/vercel-labs/web-interface-guidelines",
+        "commit": "434b7f91364665f2f733b310ec54809bf8f37937",
+        "path": "LICENSE",
+        "blob_sha": "b3575a3c1358eac4b9ee36a4c851872d81417760"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "6cd1609c9c12233507cdd2ce0d32e9a721e3c27494951be06b90090deeeb7af2"
+    },
+    {
+      "path": ".agents/skills/web-design-guidelines/LICENSE-NOTICE.md",
+      "source": null,
+      "license": "MIT",
+      "changes": [
+        "Original Kevoro provenance clarification for both MIT sources."
+      ],
+      "sha256": "abcb512b1f282bff15064b32f525c12ff1135b46dd6099b7ef523f388d73bef4"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/LICENSE",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": "LICENSE",
+        "blob_sha": "1e71cbf26660f31903807d099fe902c098fc7e4c"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/SKILL.md",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/SKILL.md",
+        "blob_sha": "30ff839623b974781366909c4ee50f538b5fdac7"
+      },
+      "license": "MIT",
+      "changes": [
+        "Kevoro precedence/truthful-brand rules; local licensed assets only; search path adapted to .agents/skills; generated design is advice, not mandatory identity; no OS installs."
+      ],
+      "sha256": "a197abc3d382ccfedef4d1ee715c750c20597c0d93536806d8add70c110646ef"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/app-interface.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/app-interface.csv",
+        "blob_sha": "95e328c807a23be02c9c32c736d0fa19109c6076"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "331e7cf2c0b222d80c566c5f255c63cb339f65bfd02e471a720f28e4864a9f08"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/catalog-summary.json",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/catalog-summary.json",
+        "blob_sha": "fac1995c7628ebd3dd4aabf123124788c4327f1e"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "5958a771e0358ec494b2eadceddd7e6d153ebf964f7a87dc80790c58ba50bda0"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/charts.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/charts.csv",
+        "blob_sha": "f1fafd7cf16093a7cf496e0de39ff4982932636b"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "80045f5793cbeca3b1373831851c992444a38967960cbba900c1472f1420e978"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/colors.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/colors.csv",
+        "blob_sha": "316d3c36d349f6702f4cd071356c14edd14610b9"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "f14cc97bc4c3527e6181b2ec3231704271249ca4ad56dcaa9bf562ab795a3dd7"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/data-provenance.json",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/data-provenance.json",
+        "blob_sha": "e38a465d1b315b0e6561af7b46d5ec9e65dd8c5f"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "d766d1afb9fcdce89dbba580161b3dad260702a18871b12ab7f762eeaf8883e8"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/google-font-licenses.json",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/google-font-licenses.json",
+        "blob_sha": "3ac2c34e80665bc902e265c52ab6c27b1654524c"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "35688523f2955795caa1a47c53b83099e60c1708461476f9cc3a050cf3b0148a"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/google-fonts.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/google-fonts.csv",
+        "blob_sha": "d7f87e3e0159b1caba083b9954793d9852256aa0"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "1c8c3b2ea1faf6a1012da463756def8b3889db33f2226f0343bb4daa80307d03"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/icons.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/icons.csv",
+        "blob_sha": "cfc3f1eccd7e5aee15d8d70f86d8fa17ba737958"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "50816c6012030178195a16ee481ebf58b47bd985d70e8ec58886cc83f6eddafc"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/landing.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/landing.csv",
+        "blob_sha": "34858160aa2789c49dca274d48bb116d51dd3f0a"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "9a2edd3bb676c2a58f00ade7a062e285222d4297bfd847c8d5b056f0dbbf52d0"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/motion.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/motion.csv",
+        "blob_sha": "8e0ca9ceb0e4cd4832aee60ac74713e1e1830de8"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "381affe8df8ea1f66fbbda2598827f9f54299107bbe6a1b4e9b68f6b62091ceb"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/phosphor-icons-upstream.json",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/phosphor-icons-upstream.json",
+        "blob_sha": "ec1d76b8117ccbfdce5df214bf0d993e41a75318"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "2399325233b277b5c97a80e6a5e8941154f5d057beee4e7613db87c87d700236"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/products.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/products.csv",
+        "blob_sha": "3027460b7fed97c978bd5157cafe945de37a296a"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "2b78d254f0fe0cc137ee811df280215c257868df24d2041264624d01f747f511"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/react-performance.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/react-performance.csv",
+        "blob_sha": "425a8e76c6b3bae40e8c633ffbf7ad6222c9f73a"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "3d925802539abac5afeb63ae8aa1960b7229ad271b3a47caed40ab2d97ad0734"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/angular.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/angular.csv",
+        "blob_sha": "5a1878dbee2b3c55c6468cbb18699b84d1a8c4d2"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "704be83f2bad30c7e6de01afb113ffa01e0c458762f48b7102f31ba2367b5553"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/astro.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/astro.csv",
+        "blob_sha": "1fd2492420b20a0b311295ab883597fadb8245a6"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "2c2f55fadaafc05e04cc321c8194a1a28b656e6757fe2ba316f41b16428299c6"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/avalonia.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/avalonia.csv",
+        "blob_sha": "c67f4117105865587eda9020c57d8c209f3a929a"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "442fca14675a020683473e7e49f08abb27b9df0765c80efe54aef61f1a4ac258"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/flutter.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/flutter.csv",
+        "blob_sha": "731805c4076bd9f2755ca4bd7def5be6f6df7e9c"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "64dba0ac17349f28bce517a0f5f48c54d9ed2e487ec0c0258303463b382f41a0"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/html-tailwind.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/html-tailwind.csv",
+        "blob_sha": "9089eb0fc821ff0c8d135f8ee503be345e8fcb84"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "d05a581d20af57b8ca0104a6d31d90a07c437d500662a96c3029fc2f9a4678ee"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/javafx.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/javafx.csv",
+        "blob_sha": "744bd80f437f12bfb5bb9c84630a58022604675a"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "2e819b8d5abdd23ad4dae0991650fdb57af497aabd68b37463aa9c442944c869"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+        "blob_sha": "8daa0b8f9a2ca3f0f1711664d9d677cd1c38dd9e"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "699de218b286948eaec7d15767b6e1350ee299167e49bf476d82e3ff58724e0a"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/laravel.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/laravel.csv",
+        "blob_sha": "ed11b0fba457e02857f996d1542fb0b8e1271756"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "854ea4daa5fc61292d22235ad33b49ba3fe22423c3de8d3cb03758ffed3b59f9"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/nextjs.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/nextjs.csv",
+        "blob_sha": "acdaf097dff26ba0d3b22ab4544bf6169c87afd4"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "ecd2c27b2ea0127d203ae726060efcdd7335b5e83f96b99e4f3befbbfeebd5a4"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+        "blob_sha": "f6b8000e106aaf421a61da45134e35c8f03e18c6"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "9c0179d559abe39ad63b958b54cb29c82be1dd20706430476096ea8967bfa328"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/nuxtjs.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/nuxtjs.csv",
+        "blob_sha": "ceab9cf3358d2788af0bd7dc14cb3fab769740d0"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "3d9b54ed2d151bd9c86e9e5609b8a6f88a00c4c52fa601a30af96c49b2c4d176"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/react-native.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/react-native.csv",
+        "blob_sha": "a5aea45dc1d0341b11ee42076a86db842d4d2a19"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "ba31dd9c0c04da6bc02a74448bf121f9c0728ae5ba3b4d47b487778b0a1135b5"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/react.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/react.csv",
+        "blob_sha": "fe8f001e695a978733449e04e99d7135af0f1bf3"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "4dd176a9787e5c6306b5df94158d75955adcdc6edab41ce5286641a5842303c1"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/shadcn.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/shadcn.csv",
+        "blob_sha": "0e8bedf3084e7a40d6310bcd3011c437efcb1700"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "e56cfde5b74907836ac3582a4779d5b7f3d206a702ab81b8669a1b668c3eeb51"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/svelte.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/svelte.csv",
+        "blob_sha": "51684fe70448e15333cd16207db7da8aea0508e6"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "f6e379ba802941ba26b01d4ffbe3cd39120f2587659a1d93851c707f66bc13db"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/swiftui.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/swiftui.csv",
+        "blob_sha": "ea9b95e8922e663b2adf27a7346e2c2f44c7a215"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "bdd9231ff3ad658f4e7c063e1eb49df2fd09ac8d90631a86df899b39833b9623"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/threejs.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/threejs.csv",
+        "blob_sha": "f62286320038beabbdc5e11e07ca2818d8e959a4"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "155d583b9c64da0df4b6c6cb060c02eab222505e0734d6353da02c9e2b5d982b"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/uno.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/uno.csv",
+        "blob_sha": "9cab32326b4ad3a3cf43451a3c24553a41126cc1"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "a0474363e4225b5367214d5675fd3e075f137026f9500f0d04357882ef4f6d48"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/uwp.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/uwp.csv",
+        "blob_sha": "04a84ea092a7657fef11e5daa97982be52dc6f59"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "c409f08c1fbba1f1029f1acaa554e7b4471cc85517a5751c9f2e62465badcd5c"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/vue.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/vue.csv",
+        "blob_sha": "83997c515775170f22b638635aae0a67a46dfc87"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "b655f1ebb9dff2652d15981f31b1784c8a6d4759efd2815a14f3088257569f95"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/winui.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/winui.csv",
+        "blob_sha": "107ecead11728a83ec0ea10d815a9d1f43a35792"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "e676dc1c13ee6c205c40b0746f1335150a346c7a49a0616d2545bc3d2c930c85"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/stacks/wpf.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/stacks/wpf.csv",
+        "blob_sha": "4e88d6750833a74f85ba487cf2b8f4ff6ebd2f4a"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "9781a9950b20333637b30a02e498b7efca21b618a3eeb8665836f3ac6e974da7"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/styles.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/styles.csv",
+        "blob_sha": "7ed18d6ef06557b9a6f2285b87b458fd71e4722f"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "a9b6cadbd1cb9e7cb8398a3b445e0691d01e42ed5e5efa60a5d0c08c99c8100d"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/typography.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/typography.csv",
+        "blob_sha": "70d107d107de30150863c965767320ec33ef29ad"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "321fc446e89024488ebae96dda93efc4d2307bd8bddb240857ad51364f6782c8"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/ui-reasoning.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/ui-reasoning.csv",
+        "blob_sha": "d29b5be1be8cbbd57e0f379b8f29febf3850c03b"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "60b8b1a0fc426d65c8d536fbd348e89e6c6484ab9cb54ddbcfe85b4339d960f9"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/data/ux-guidelines.csv",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/data/ux-guidelines.csv",
+        "blob_sha": "0a02d0b5325dd538cac4b8e690d0b8d975ddb34a"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "9c473c1104e93f3d985f2d46d8854735e1a1deb8e0ac5ecd39c7e3b04e5d7528"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/references/pro-rules.md",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/references/pro-rules.md",
+        "blob_sha": "b2ce233287e37ec9ca13476c4014b922e9d5a0e9"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "d28442d61c310b49c054a4ea736f89fb3008beebdbbc38c4b3a540b8f7fadf23"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/references/quick-reference.md",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/references/quick-reference.md",
+        "blob_sha": "bff0965d7285a13a735f12d0026472c06dfb9b8d"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "a2628145f48f076dda3d0f75e26a066a6590d4762da5aa4bb9bdd47782aa93cb"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/scripts/core.py",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/scripts/core.py",
+        "blob_sha": "02a3eee65462772dda9e0e56ae1dc1531b68c85a"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "caf92bdcf2579c9a7d6af4f53c54ee9d3c8f05472cfab77aaec38bef120ec63e"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/scripts/design_system.py",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/scripts/design_system.py",
+        "blob_sha": "83da82851e4dcfbe2f4577d4c64c4b8b5e8edaa0"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "043ed3f404214869ffbf4c8d529afc6c6ceddb211fa4726d67d7a03edf7265db"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/scripts/preview.py",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/scripts/preview.py",
+        "blob_sha": "9f61882d8918495f994b827273f23125599aa44b"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "2900f6b4307439c20083aa6a630332f9e8ac6fd95901bd703f75fa9a75b84fbb"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/scripts/reasoning_contract.py",
+        "blob_sha": "63652a666b130c249ea1e2954316f1ac8a5a73d5"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "b8bac1af82aa280d3e06f00aabaeac4337e632996b07fed874e2b6ee6e9c5913"
+    },
+    {
+      "path": ".agents/skills/ui-ux-pro-max/scripts/search.py",
+      "source": {
+        "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+        "path": ".claude/skills/ui-ux-pro-max/scripts/search.py",
+        "blob_sha": "88214418d01eae3da7c017c641faf1834e5d3bf2"
+      },
+      "license": "MIT",
+      "changes": [],
+      "sha256": "6b52ebb01480058cab145d3c2cb57880a529e522c0781cf8cd873fa55c9b9f1d"
+    },
+    {
+      "path": ".agents/skills/emil-design-eng/SKILL.md",
+      "source": {
+        "repository": "https://github.com/emilkowalski/skills",
+        "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+        "path": "skills/emil-design-eng/SKILL.md",
+        "blob_sha": "5155a4bf33e99028645dbdad4c049a3d209b1f21"
+      },
+      "changes": [
+        "Added MIT metadata and Kevoro scope/brand/evidence note; removed greeting-and-wait gate; made choreography guidance self-contained; restricted test guidance to isolated authorized localhost."
+      ],
+      "sha256": "6eec0f8deb9eaf72b5b9a7114f1d09aebaa32d599547d4e462d527aeb165fec0",
+      "license": "MIT"
+    },
+    {
+      "path": ".agents/skills/emil-design-eng/LICENSE",
+      "source": {
+        "repository": "https://github.com/emilkowalski/skills",
+        "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+        "path": "LICENSE",
+        "blob_sha": "57b46f1fd11dc62351ea548104a88aa3f659c11b"
+      },
+      "changes": [],
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "license": "MIT"
+    },
+    {
+      "path": ".agents/skills/frontend-a11y/SKILL.md",
+      "source": {
+        "repository": "https://github.com/mikemai2awesome/agent-skills",
+        "commit": "5ca6fcf3a2d8a181ad597825dc799a250ccae7cd",
+        "path": "skills/frontend-a11y/SKILL.md",
+        "blob_sha": "d0d6941d0d8d54ab0579a6c719a9fe5b85ee21a6"
+      },
+      "changes": [
+        "Added MIT metadata, Kevoro scope/brand/evidence note and non-certification clarification; corrected disabled control semantics and guarded aria-disabled example; replaced W3C dump links and offline lookup instructions with canonical documentation."
+      ],
+      "sha256": "4f3e97c2774b083ed82c6399bd770c2c737af9e21299a496d71bfd88725446b5",
+      "license": "MIT"
+    },
+    {
+      "path": ".agents/skills/frontend-a11y/references/angular.md",
+      "source": {
+        "repository": "https://github.com/mikemai2awesome/agent-skills",
+        "commit": "5ca6fcf3a2d8a181ad597825dc799a250ccae7cd",
+        "path": "skills/frontend-a11y/references/angular.md",
+        "blob_sha": "e33597cd6e95ffc922456ef615f0c136addc806f"
+      },
+      "changes": [],
+      "sha256": "43515b82ef8dabc4b3e49baa9f16f0a72154b9b32eb68504534ce8dbb4a0396e",
+      "license": "MIT"
+    },
+    {
+      "path": ".agents/skills/frontend-a11y/references/css.md",
+      "source": {
+        "repository": "https://github.com/mikemai2awesome/agent-skills",
+        "commit": "5ca6fcf3a2d8a181ad597825dc799a250ccae7cd",
+        "path": "skills/frontend-a11y/references/css.md",
+        "blob_sha": "a76ec5b6361c2b24446de00bea4689ea76feb4c1"
+      },
+      "changes": [
+        "Replaced links to omitted W3C dumps with canonical specification URLs.",
+        "Removed absolute disabled-button rule; require correct styling and activation guards."
+      ],
+      "sha256": "ce222f4c762141fc9c222a7554157ce35a086e01b2d619593072c951caa1e213",
+      "license": "MIT"
+    },
+    {
+      "path": ".agents/skills/frontend-a11y/references/patterns.md",
+      "source": {
+        "repository": "https://github.com/mikemai2awesome/agent-skills",
+        "commit": "5ca6fcf3a2d8a181ad597825dc799a250ccae7cd",
+        "path": "skills/frontend-a11y/references/patterns.md",
+        "blob_sha": "48c754a1a1fd2b78becb687879c79992f766558d"
+      },
+      "changes": [
+        "Replaced links to omitted W3C dumps with canonical specification URLs.",
+        "Corrected disabled accessibility-tree claim; guarded inactive carousel example."
+      ],
+      "sha256": "e8da0253441a01c551eb42cebbaaad56c57bf6994b8b0d6cab57bb204d335acf",
+      "license": "MIT"
+    },
+    {
+      "path": ".agents/skills/frontend-a11y/references/react.md",
+      "source": {
+        "repository": "https://github.com/mikemai2awesome/agent-skills",
+        "commit": "5ca6fcf3a2d8a181ad597825dc799a250ccae7cd",
+        "path": "skills/frontend-a11y/references/react.md",
+        "blob_sha": "49335dd7fb220b9c23b6f5ed268faa5633004cb4"
+      },
+      "changes": [
+        "Corrected claim that generic clickable text is absent from the accessibility tree; distinguish exposure from operable native control semantics."
+      ],
+      "sha256": "7c2629901798c068064960307048f5109efdb5607af3f70188875b7f7a42476c",
+      "license": "MIT"
+    },
+    {
+      "path": ".agents/skills/frontend-a11y/references/standards.md",
+      "source": {
+        "repository": "https://github.com/mikemai2awesome/agent-skills",
+        "commit": "5ca6fcf3a2d8a181ad597825dc799a250ccae7cd",
+        "path": "skills/frontend-a11y/references/standards.md",
+        "blob_sha": "b7826259a52a4f95323669f5c56cd241022ab524"
+      },
+      "changes": [],
+      "sha256": "297d7a8850695bf3dc7d9b0dbdda900ce1515113efcd8fd65a1e6cacfd057828",
+      "license": "MIT"
+    },
+    {
+      "path": ".agents/skills/frontend-a11y/references/svelte.md",
+      "source": {
+        "repository": "https://github.com/mikemai2awesome/agent-skills",
+        "commit": "5ca6fcf3a2d8a181ad597825dc799a250ccae7cd",
+        "path": "skills/frontend-a11y/references/svelte.md",
+        "blob_sha": "8a044ac4ccf3353fc083d3dee8e98fa89c3ae5d6"
+      },
+      "changes": [],
+      "sha256": "776f8e7b0642456b34327022bba1295409e495f826ea34de2f3651f71ee1f7d1",
+      "license": "MIT"
+    },
+    {
+      "path": ".agents/skills/frontend-a11y/references/vue.md",
+      "source": {
+        "repository": "https://github.com/mikemai2awesome/agent-skills",
+        "commit": "5ca6fcf3a2d8a181ad597825dc799a250ccae7cd",
+        "path": "skills/frontend-a11y/references/vue.md",
+        "blob_sha": "d0bac341a8b987046e537f0c1345514b7fce7178"
+      },
+      "changes": [],
+      "sha256": "fa66462344548857719c1105404b9e27f3c311c879baf46ffcd6d3eac216f3ea",
+      "license": "MIT"
+    },
+    {
+      "path": ".agents/skills/frontend-a11y/references/web-components.md",
+      "source": {
+        "repository": "https://github.com/mikemai2awesome/agent-skills",
+        "commit": "5ca6fcf3a2d8a181ad597825dc799a250ccae7cd",
+        "path": "skills/frontend-a11y/references/web-components.md",
+        "blob_sha": "0f226adfa0db526da2f6768d41201e21218c774f"
+      },
+      "changes": [],
+      "sha256": "95b0332bbda108467add1b6384e4eb49a4e461e6e31c423752fc00f48dd7b77f",
+      "license": "MIT"
+    },
+    {
+      "path": ".agents/skills/frontend-a11y/LICENSE",
+      "source": {
+        "repository": "https://github.com/mikemai2awesome/agent-skills",
+        "commit": "5ca6fcf3a2d8a181ad597825dc799a250ccae7cd",
+        "path": "LICENSE",
+        "blob_sha": "75c49d6d7c3821a31b43c4ccaf3f5964243f371e"
+      },
+      "changes": [],
+      "sha256": "1050ea38c0d5678320226d188379384d504303afd6eb33b3e2e1b85812944664",
+      "license": "MIT"
+    }
+  ],
+  "popularity": [
+    {
+      "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "stars": 151391,
+      "source": "https://api.github.com/repos/nextlevelbuilder/ui-ux-pro-max-skill",
+      "retrieved_at_utc": "2026-11-19T02:44:50Z",
+      "note": "Repository popularity only; not a quality score or a Kevoro claim."
+    },
+    {
+      "repository": "https://github.com/pbakaus/impeccable",
+      "stars": 112954,
+      "source": "https://api.github.com/repos/pbakaus/impeccable",
+      "retrieved_at_utc": "2026-11-19T02:44:50Z",
+      "note": "Repository popularity only; not a quality score or a Kevoro claim."
+    },
+    {
+      "repository": "https://github.com/vercel-labs/agent-skills",
+      "stars": 34489,
+      "source": "https://api.github.com/repos/vercel-labs/agent-skills",
+      "retrieved_at_utc": "2026-11-19T02:44:50Z",
+      "note": "Repository popularity only; not a quality score or a Kevoro claim."
+    }
+  ],
+  "investigated": [
+    {
+      "name": "canvas-design",
+      "repository": "https://github.com/anthropics/skills",
+      "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "path": "skills/canvas-design/SKILL.md",
+      "license": "Apache-2.0",
+      "installed": false,
+      "reason": "Specialized in PDF/PNG posters and a large bundled font collection; frontend-design plus original SVG brand work covers this static website without unnecessary font assets."
+    },
+    {
+      "name": "brand-guidelines",
+      "repository": "https://github.com/anthropics/skills",
+      "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "path": "skills/brand-guidelines/SKILL.md",
+      "license": "Apache-2.0",
+      "installed": false,
+      "reason": "Applies Anthropic identity, not a method for defining Kevoro identity; omitted to avoid using another company's branding."
+    },
+    {
+      "name": "theme-factory",
+      "repository": "https://github.com/anthropics/skills",
+      "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
+      "path": "skills/theme-factory/SKILL.md",
+      "license": "Apache-2.0",
+      "installed": false,
+      "reason": "Preset presentation themes and mandatory theme-choice pauses overlap with a bespoke brand direction; omitted."
+    },
+    {
+      "name": "impeccable full runtime/animate",
+      "repository": "https://github.com/pbakaus/impeccable",
+      "commit": "b49177d32788f2dc585c42831d845dacf1ebed2c",
+      "license": "Apache-2.0",
+      "installed": false,
+      "reason": "Selected standalone polish method only; full runtime downloads a binary and adds hooks. Motion is covered by emil-design-eng, so no duplicate animate workflow."
+    }
+  ],
+  "omitted": [
+    {
+      "repository": "https://github.com/mikemai2awesome/agent-skills",
+      "commit": "5ca6fcf3a2d8a181ad597825dc799a250ccae7cd",
+      "paths": [
+        "skills/frontend-a11y/references/aria.md",
+        "skills/frontend-a11y/references/wcag.json"
+      ],
+      "reason": "Verbatim or structured third-party W3C specification text. Do not assume author MIT license covers third-party documents; canonical W3C URLs replace local dumps."
+    },
+    {
+      "repository": "https://github.com/mikemai2awesome/agent-skills",
+      "commit": "5ca6fcf3a2d8a181ad597825dc799a250ccae7cd",
+      "paths": [
+        "skills/frontend-a11y/evals/evals.json"
+      ],
+      "reason": "Upstream skill authoring evaluation corpus is not needed to consume the skill; no test harness installed."
+    },
+    {
+      "repository": "https://github.com/emilkowalski/skills",
+      "commit": "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c",
+      "paths": [
+        "skills/choreograph/"
+      ],
+      "reason": "Standalone dependency avoided; relevant basic group-entry guidance is self-contained in adapted skill."
+    },
+    {
+      "repository": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "2de1134dc4d1cfe112934611ae5803ae17a1bd7e",
+      "paths": [
+        ".claude/skills/ui-ux-pro-max/scripts/tests/",
+        ".claude/skills/ui-ux-pro-max/scripts/validate_data.py"
+      ],
+      "reason": "Upstream maintenance tests and data validator are outside the installed skill consumer; search modules, complete data, provenance and references retained."
+    }
+  ],
+  "installed_skills": [
+    "emil-design-eng",
+    "frontend-a11y",
+    "frontend-design",
+    "impeccable-polish",
+    "ui-ux-pro-max",
+    "web-design-guidelines",
+    "webapp-testing"
+  ],
+  "validation": [
+    "Seven skill manifests: valid name/description metadata and local folder names",
+    "All installed files SHA256 checked",
+    "All Markdown local links resolve",
+    "All installed Python files parse",
+    "webapp-testing with_server.py --help succeeds",
+    "UI UX Pro Max --help succeeds",
+    "Local UX search returns 3 results",
+    "Local style search returns 1 result",
+    "Local design-system generation succeeds without persistence",
+    "No dependencies, global plugins, hooks, binaries or deployments installed"
+  ],
+  "review_date_bogota": "2026-11-18"
+}
