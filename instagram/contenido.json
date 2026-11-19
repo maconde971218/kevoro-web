@@ -1,0 +1,1142 @@
+{
+  "version": "1.0",
+  "idioma": "es-CO",
+  "estado": "Pendiente de aprobación del CEO",
+  "naturaleza": "Propuesta editorial local, sin publicaciones ni cuentas conectadas",
+  "fuente_de_verdad": "instagram/contenido.json",
+  "nombre": "Kevoro · Primeros 30 días",
+  "inicio": "D1 corresponde al primer día que el CEO apruebe. No hay fecha de publicación ni contenido programado.",
+  "direccion_visual": "Pulso, propuesta recomendada pendiente de elección del CEO",
+  "colores": {
+    "verde": "#164D43",
+    "lima": "#D9FA79",
+    "blanco": "#FAFCF9",
+    "cielo": "#DCEAF7",
+    "tinta": "#183B35"
+  },
+  "perfil": {
+    "nombre_visible": "Kevoro | Software para negocios",
+    "usuario": null,
+    "usuario_nota": "Pendiente de confirmar disponibilidad y cuenta real; no se inventa un handle.",
+    "bio": "Software sencillo para negocios.\nHecho en Bogotá, Colombia.\nHablemos: kevoro.company@gmail.com",
+    "bio_caracteres": 94,
+    "correo": "kevoro.company@gmail.com",
+    "ubicacion": "Bogotá, Colombia",
+    "enlace_web": null,
+    "enlace_web_nota": "Confirmar URL pública final antes de añadirla a un perfil.",
+    "destacados_propuestos": [
+      "Empieza aquí",
+      "Ideas claras",
+      "Así lo pensamos",
+      "Contacto"
+    ]
+  },
+  "objetivo": "Presentar Kevoro con claridad y abrir conversaciones sobre necesidades de software, sin prometer resultados comerciales.",
+  "audiencia_propuesta": "Personas que lideran negocios en Colombia y quieren explicar mejor una necesidad de software. Es una hipótesis editorial; no proviene de entrevistas ni datos de clientes.",
+  "tono": [
+    "Español de Colombia, cercano y claro",
+    "Hablar de tareas y ejemplos cotidianos",
+    "Sin jerga de desarrollo ni promesas exageradas"
+  ],
+  "pilares": [
+    {
+      "nombre": "Conoce Kevoro",
+      "proposito": "Nombre, origen y contacto verificados."
+    },
+    {
+      "nombre": "Ideas claras",
+      "proposito": "Ejercicios sencillos para describir una necesidad."
+    },
+    {
+      "nombre": "El trabajo cotidiano",
+      "proposito": "Procesos conceptuales sin datos de clientes."
+    },
+    {
+      "nombre": "Conversemos",
+      "proposito": "Invitar a compartir una idea por el correo confirmado."
+    }
+  ],
+  "hechos_confirmados": [
+    {
+      "hecho": "Kevoro hace software para negocios.",
+      "fuente": "index.html original del repositorio y encargo del CEO."
+    },
+    {
+      "hecho": "Bogotá, Colombia.",
+      "fuente": "Contacto en index.html original."
+    },
+    {
+      "hecho": "kevoro.company@gmail.com",
+      "fuente": "Enlace y texto de contacto en index.html original."
+    },
+    {
+      "hecho": "Basilia Connect tiene agenda y recordatorios por WhatsApp para clínicas.",
+      "fuente": "Confirmación explícita del CEO en el encargo, además de la descripción del index.html original."
+    }
+  ],
+  "limites": [
+    "No se han publicado, programado ni enviado piezas o respuestas.",
+    "Sin métricas de alcance, ahorro, ventas o resultados inventadas.",
+    "Sin clientes, testimonios, pacientes, datos sanitarios ni personas identificables.",
+    "Basilia Connect se presenta con sus funciones confirmadas de agenda y recordatorios por WhatsApp. No se anuncian otras funciones, precios, plazos ni disponibilidad inmediata de demo.",
+    "Bocetos e ilustraciones se identifican como conceptos; no son capturas de productos.",
+    "La aprobación del plan no ejecuta publicaciones."
+  ],
+  "decisiones_ceo": [
+    "Aprobar o ajustar la dirección Pulso y el tono del conjunto.",
+    "Aprobar el paquete editorial y elegir la fecha que será D1.",
+    "Confirmar cuenta/usuario de Instagram y URL pública antes de completar el perfil.",
+    "Elegir cómo recibir y atender las solicitudes de demo; la propuesta invita a solicitarla sin prometer disponibilidad inmediata."
+  ],
+  "posts": [
+    {
+      "id": "P01",
+      "dia": "D1",
+      "formato": "Post tipográfico",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Propuesta tipográfica visible en la galería; exportación final pendiente",
+      "titulo": "Menos vueltas. Más negocio.",
+      "texto_arte": "Menos vueltas.\nMás negocio.",
+      "texto_secundario": "Software sencillo, hecho en Bogotá.",
+      "caption": "Somos Kevoro. Hacemos software para negocios desde Bogotá.\n\nEn este espacio vamos a compartir ideas para pensar herramientas útiles y explicar la tecnología con palabras sencillas. Queremos empezar por el trabajo de todos los días: qué pasa, qué se repite y qué necesita más claridad.\n\nSi tienes una idea para tu negocio, cuéntanos en kevoro.company@gmail.com.",
+      "hashtags": [
+        "#Kevoro",
+        "#SoftwareParaNegocios",
+        "#HechoEnBogotá"
+      ],
+      "alt": "Tarjeta verde con el nombre Kevoro y el titular en lima: Menos vueltas. Más negocio. Abajo dice: Software sencillo, hecho en Bogotá.",
+      "brief_visual": "Fondo verde Pulso. Titular grande alineado a la izquierda en lima. Marca arriba, línea corta y texto de origen abajo. Mantener aire alrededor de las palabras; ningún gráfico de crecimiento.",
+      "tema_visual": "verde",
+      "formato_arte": "1080 × 1350 px, proporción 4:5",
+      "nota_evidencia": "Texto de marca o consejo general. No afirma resultados, clientes ni funcionalidades de un producto."
+    },
+    {
+      "id": "P02",
+      "dia": "D3",
+      "formato": "Post tipográfico",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Propuesta tipográfica visible en la galería; exportación final pendiente",
+      "titulo": "Tu agenda, con todo en su lugar.",
+      "texto_arte": "Tu agenda,\ncon todo\nen su lugar.",
+      "texto_secundario": "Basilia Connect. Agenda y recordatorios por WhatsApp.",
+      "caption": "Basilia Connect es una agenda de trabajo para clínicas con recordatorios por WhatsApp.\n\nLa imagen es una ilustración conceptual: muestra bloques de mañana y tarde sin nombres ni datos reales.\n\nSi quieres conocer Basilia Connect, solicita una demo en kevoro.company@gmail.com. Revisaremos la solicitud para acordar el siguiente paso.",
+      "hashtags": [
+        "#Kevoro",
+        "#BasiliaConnect",
+        "#GestiónDeClínicas"
+      ],
+      "alt": "Tarjeta clara de Basilia Connect con el título Tu agenda, con todo en su lugar. Dos bloques representan mañana y tarde, y un rótulo indica Recordatorios por WhatsApp. Es una ilustración conceptual sin nombres ni datos reales.",
+      "brief_visual": "Fondo blanco cálido, tipografía verde y marca Basilia Connect. Dos bloques abstractos rotulados Mañana y Tarde; un rótulo separado explica Recordatorios por WhatsApp. Pie obligatorio: Ilustración conceptual. Sin pantallas reales, nombres ni pacientes.",
+      "tema_visual": "claro",
+      "formato_arte": "1080 × 1350 px, proporción 4:5",
+      "nota_evidencia": "Agenda y recordatorios por WhatsApp confirmados explícitamente por el CEO. La solicitud de demo no garantiza disponibilidad inmediata."
+    },
+    {
+      "id": "P03",
+      "dia": "D6",
+      "formato": "Post tipográfico",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Propuesta tipográfica visible en la galería; exportación final pendiente",
+      "titulo": "Tu idea merece una herramienta propia.",
+      "texto_arte": "Tu idea merece\nuna herramienta\npropia.",
+      "texto_secundario": "Cuéntanos qué necesita tu negocio.",
+      "caption": "Una idea de software puede empezar con una frase sencilla: «Me gustaría que esta tarea fuera más fácil de entender».\n\nCuéntanos cómo la haces hoy y qué te gustaría cambiar. Ese contexto sirve para conversar sobre una herramienta y su alcance.\n\nEscríbenos a kevoro.company@gmail.com. El primer tema puede ser tan concreto como ese pendiente que vuelve cada semana.",
+      "hashtags": [
+        "#Kevoro",
+        "#DesarrolloDeSoftware",
+        "#NegociosColombia"
+      ],
+      "alt": "Tarjeta azul clara con el texto Tu idea merece una herramienta propia. Tres formas geométricas representan una idea, una ventana y la marca Kevoro.",
+      "brief_visual": "Fondo cielo, título verde y tres piezas geométricas originales. La composición conecta idea, boceto y marca. Cierre: Conversemos. Usar el correo confirmado; no mostrar precios ni plazos.",
+      "tema_visual": "cielo",
+      "formato_arte": "1080 × 1350 px, proporción 4:5",
+      "nota_evidencia": "Texto de marca o consejo general. No afirma resultados, clientes ni funcionalidades de un producto."
+    },
+    {
+      "id": "P04",
+      "dia": "D8",
+      "formato": "Post tipográfico",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Propuesta tipográfica visible en la galería; exportación final pendiente",
+      "titulo": "Empieza por lo que se repite.",
+      "texto_arte": "Empieza por\nlo que se repite.",
+      "texto_secundario": "Una tarea cotidiana puede ser un buen punto de partida.",
+      "caption": "Antes de hacer una lista de funciones, escoge una tarea que se repita en tu negocio.\n\nEscribe cómo empieza, qué información necesita y cómo sabes que terminó. Incluye también el paso que suele quedar poco claro.\n\nCon ese recorrido a la vista, resulta más fácil explicar qué te gustaría cambiar. Esta es una propuesta de ejercicio, no una promesa de ahorro.",
+      "hashtags": [
+        "#Kevoro",
+        "#ProcesosDeNegocio",
+        "#IdeasParaNegocios"
+      ],
+      "alt": "Tarjeta lima con el titular Empieza por lo que se repite. Una línea conecta las palabras Inicio, Trabajo y Cierre.",
+      "brief_visual": "Fondo lima. Titular oscuro y recorrido de tres puntos en la parte inferior. Evitar flechas de velocidad, porcentajes o cronómetros. Se trata de comprender el proceso.",
+      "tema_visual": "lima",
+      "formato_arte": "1080 × 1350 px, proporción 4:5",
+      "nota_evidencia": "Texto de marca o consejo general. No afirma resultados, clientes ni funcionalidades de un producto."
+    },
+    {
+      "id": "P05",
+      "dia": "D11",
+      "formato": "Post tipográfico",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Propuesta tipográfica visible en la galería; exportación final pendiente",
+      "titulo": "Que se entienda a la primera.",
+      "texto_arte": "Que se entienda\na la primera.",
+      "texto_secundario": "Las palabras también hacen parte del diseño.",
+      "caption": "Un botón llamado «Guardar pedido» explica mejor su acción que uno que solo dice «Continuar».\n\nAl revisar una pantalla, lee sus textos como si fuera la primera vez que la ves. Comprueba si sabes qué va a pasar después de tocar cada opción.\n\nEl ejemplo es conceptual. La idea es mirar los detalles que ayudan a entender una herramienta.",
+      "hashtags": [
+        "#Kevoro",
+        "#DiseñoDigital",
+        "#SoftwareSencillo"
+      ],
+      "alt": "Tarjeta verde con el título Que se entienda a la primera y un botón ilustrado que dice Guardar pedido. El pie aclara que es un ejemplo conceptual.",
+      "brief_visual": "Fondo verde, título blanco cálido. Botón ilustrado lima en la parte baja y etiqueta Ejemplo conceptual. Sin interfaz de una aplicación existente ni logos de terceros.",
+      "tema_visual": "verde",
+      "formato_arte": "1080 × 1350 px, proporción 4:5",
+      "nota_evidencia": "Texto de marca o consejo general. No afirma resultados, clientes ni funcionalidades de un producto."
+    },
+    {
+      "id": "P06",
+      "dia": "D15",
+      "formato": "Post tipográfico",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Propuesta tipográfica visible en la galería; exportación final pendiente",
+      "titulo": "Dibuja el recorrido.",
+      "texto_arte": "Dibuja\nel recorrido.",
+      "texto_secundario": "Del primer paso al trabajo terminado.",
+      "caption": "Toma una hoja y dibuja el recorrido de una tarea. Por ejemplo: recibir una solicitud, revisarla y dar una respuesta.\n\nUne los pasos y marca dónde hace falta información. Si otra persona participa, pídele que revise si el dibujo se parece a su trabajo.\n\nPuedes usar este esquema para explicar una idea de software sin términos técnicos.",
+      "hashtags": [
+        "#Kevoro",
+        "#ProcesosClaros",
+        "#NegociosColombia"
+      ],
+      "alt": "Tarjeta clara con el titular Dibuja el recorrido. Debajo aparecen tres recuadros conectados: Recibir, Revisar y Responder.",
+      "brief_visual": "Fondo blanco cálido, tipografía verde y líneas amplias. Recuadros abstractos del recorrido con etiquetas legibles. Pie: Ejemplo de proceso. No simular datos de clientes.",
+      "tema_visual": "claro",
+      "formato_arte": "1080 × 1350 px, proporción 4:5",
+      "nota_evidencia": "Texto de marca o consejo general. No afirma resultados, clientes ni funcionalidades de un producto."
+    },
+    {
+      "id": "P07",
+      "dia": "D18",
+      "formato": "Post tipográfico",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Propuesta tipográfica visible en la galería; exportación final pendiente",
+      "titulo": "Prueba con un ejemplo inventado.",
+      "texto_arte": "Prueba con\nun ejemplo\ninventado.",
+      "texto_secundario": "Lo real puede esperar fuera de la demostración.",
+      "caption": "Para conversar sobre una pantalla, puedes usar una solicitud inventada y dejarlo visible.\n\nUn ejemplo sencillo permite revisar el recorrido sin copiar información de personas o negocios. En el boceto, escribe «Datos ficticios» para que no haya confusión.\n\nLa prueba sirve para hacer preguntas: ¿se entiende el paso?, ¿qué falta?, ¿qué debería pasar después?",
+      "hashtags": [
+        "#Kevoro",
+        "#DiseñoDeSoftware",
+        "#DatosFicticios"
+      ],
+      "alt": "Tarjeta cielo con el título Prueba con un ejemplo inventado. Una ficha abstracta lleva el sello Datos ficticios y el texto Solicitud de ejemplo.",
+      "brief_visual": "Fondo cielo y sello verde Datos ficticios, grande y legible. Dibujar una ficha vacía con Solicitud de ejemplo. No usar nombres, teléfonos, historias clínicas ni pantallas reales.",
+      "tema_visual": "cielo",
+      "formato_arte": "1080 × 1350 px, proporción 4:5",
+      "nota_evidencia": "Texto de marca o consejo general. No afirma resultados, clientes ni funcionalidades de un producto."
+    },
+    {
+      "id": "P08",
+      "dia": "D20",
+      "formato": "Post tipográfico",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Propuesta tipográfica visible en la galería; exportación final pendiente",
+      "titulo": "Tu próximo paso, por escrito.",
+      "texto_arte": "Tu próximo paso,\npor escrito.",
+      "texto_secundario": "Lo que necesitas primero, con palabras claras.",
+      "caption": "Una idea puede tener muchas partes. Para conversar sobre ella, separa lo que necesitas primero de lo que puede esperar.\n\nDescribe el resultado que buscas y una forma sencilla de comprobarlo. Por ejemplo: «Quiero ver en qué paso está una solicitud». Es un caso ficticio, no una función anunciada.\n\nGuarda esa frase junto a tu boceto. Te servirá para revisar si la propuesta responde a lo que necesitas.",
+      "hashtags": [
+        "#Kevoro",
+        "#IdeasClaras",
+        "#SoftwareParaNegocios"
+      ],
+      "alt": "Tarjeta lima con el titular Tu próximo paso, por escrito. Dos franjas se llaman Primero y Después, como propuesta para organizar una idea.",
+      "brief_visual": "Fondo lima, titular verde. Dos líneas amplias rotuladas Primero y Después, sin promesas de entrega. Usar una composición editorial con el número de la pieza pequeño.",
+      "tema_visual": "lima",
+      "formato_arte": "1080 × 1350 px, proporción 4:5",
+      "nota_evidencia": "Texto de marca o consejo general. No afirma resultados, clientes ni funcionalidades de un producto."
+    },
+    {
+      "id": "P09",
+      "dia": "D24",
+      "formato": "Post tipográfico",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Propuesta tipográfica visible en la galería; exportación final pendiente",
+      "titulo": "Hablemos de tu negocio.",
+      "texto_arte": "Hablemos\nde tu negocio.",
+      "texto_secundario": "kevoro.company@gmail.com\nBogotá, Colombia.",
+      "caption": "Si tienes una idea de software, puedes contárnosla con tus propias palabras.\n\nDescribe qué haces hoy y qué te gustaría cambiar. Con eso podemos empezar una conversación sobre tu negocio. No hace falta enviar documentos internos ni información de otras personas.\n\nKevoro · Bogotá, Colombia\nkevoro.company@gmail.com",
+      "hashtags": [
+        "#Kevoro",
+        "#SoftwareParaNegocios",
+        "#Bogotá"
+      ],
+      "alt": "Tarjeta verde con el texto Hablemos de tu negocio y el correo kevoro.company@gmail.com. El pie indica Bogotá, Colombia.",
+      "brief_visual": "Fondo verde. Titular lima y bloque de contacto blanco cálido; correo en tamaño legible. No añadir WhatsApp, dirección física, usuario de Instagram o dominio no confirmados.",
+      "tema_visual": "verde",
+      "formato_arte": "1080 × 1350 px, proporción 4:5",
+      "nota_evidencia": "Texto de marca o consejo general. No afirma resultados, clientes ni funcionalidades de un producto."
+    }
+  ],
+  "reels": [
+    {
+      "id": "R01",
+      "dia": "D4",
+      "titulo": "Basilia Connect, en pocas palabras",
+      "formato": "Reel",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Guion completo; grabación y edición pendientes",
+      "duracion_segundos": 30,
+      "formato_video": "Vertical 1080 × 1920 px, 9:16",
+      "caption": "Basilia Connect: agenda para clínicas y recordatorios por WhatsApp. Este video se plantea con ilustraciones conceptuales, sin datos reales. Para solicitar una demo, escribe a kevoro.company@gmail.com.",
+      "hashtags": [
+        "#Kevoro",
+        "#BasiliaConnect",
+        "#GestiónDeClínicas"
+      ],
+      "guion": [
+        {
+          "desde": 0,
+          "hasta": 4,
+          "visual": "Dos bloques ilustrados, Mañana y Tarde. Rótulo constante: Ilustración conceptual.",
+          "voz_en_off": "Una agenda para el trabajo de tu clínica.",
+          "texto_pantalla": "Basilia Connect"
+        },
+        {
+          "desde": 4,
+          "hasta": 10,
+          "visual": "Agenda esquemática junto a una tarjeta de recordatorio inventado, sin destinatario.",
+          "voz_en_off": "Basilia Connect reúne la agenda y recordatorios por WhatsApp.",
+          "texto_pantalla": "Agenda + recordatorios por WhatsApp"
+        },
+        {
+          "desde": 10,
+          "hasta": 17,
+          "visual": "Acercamiento a los bloques vacíos; no aparece información personal.",
+          "voz_en_off": "Aquí la mostramos con una ilustración conceptual, sin datos reales.",
+          "texto_pantalla": "Ilustración conceptual"
+        },
+        {
+          "desde": 17,
+          "hasta": 24,
+          "visual": "Tarjeta tipográfica que dice Solicita una demo.",
+          "voz_en_off": "Si quieres conocerla, puedes solicitar una demo por correo.",
+          "texto_pantalla": "Solicita una demo"
+        },
+        {
+          "desde": 24,
+          "hasta": 30,
+          "visual": "Marca Kevoro y correo; espacio limpio alrededor del texto.",
+          "voz_en_off": "Escríbenos a Kevoro y cuéntanos qué necesitas.",
+          "texto_pantalla": "kevoro.company@gmail.com"
+        }
+      ],
+      "cierre": "Solicita una demo en kevoro.company@gmail.com. La fecha y el alcance se acuerdan después de revisar la solicitud.",
+      "produccion": "Animación sencilla de bloques vacíos en Pulso; no grabar cuentas, mensajes, pacientes ni pantallas reales. Agenda y recordatorios por WhatsApp son funciones confirmadas; no añadir otras.",
+      "accesibilidad": "Subtítulos revisados de toda la voz; texto con contraste, fuera de bordes e interfaz; sin destellos ni información que dependa solo del audio.",
+      "audio": "Voz original propuesta, tono conversado. Música opcional únicamente con licencia comprobada; ninguna pista seleccionada ni voz clonada."
+    },
+    {
+      "id": "R02",
+      "dia": "D10",
+      "titulo": "Tu idea de software en una frase",
+      "formato": "Reel",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Guion completo; grabación y edición pendientes",
+      "duracion_segundos": 30,
+      "formato_video": "Vertical 1080 × 1920 px, 9:16",
+      "caption": "Una frase puede abrir la conversación: «Quiero que [persona] pueda [tarea] para [propósito]». Completa el ejemplo con tu idea y deja los datos privados fuera.",
+      "hashtags": [
+        "#Kevoro",
+        "#SoftwareParaNegocios",
+        "#IdeasClaras"
+      ],
+      "guion": [
+        {
+          "desde": 0,
+          "hasta": 4,
+          "visual": "Hoja en blanco con un cursor dibujado o lápiz.",
+          "voz_en_off": "Tu idea de software puede empezar con una frase.",
+          "texto_pantalla": "Empieza con una frase"
+        },
+        {
+          "desde": 4,
+          "hasta": 10,
+          "visual": "Se escribe: Quiero que…",
+          "voz_en_off": "Primero, piensa quién usaría la herramienta.",
+          "texto_pantalla": "Quién la usaría"
+        },
+        {
+          "desde": 10,
+          "hasta": 17,
+          "visual": "Se completa: pueda…",
+          "voz_en_off": "Después, escribe la tarea que necesita hacer.",
+          "texto_pantalla": "Qué necesita hacer"
+        },
+        {
+          "desde": 17,
+          "hasta": 24,
+          "visual": "Se añade: para… y rótulo Plantilla de ejemplo.",
+          "voz_en_off": "Cierra con el propósito. Usa palabras que dirías en una conversación.",
+          "texto_pantalla": "Para qué le sirve"
+        },
+        {
+          "desde": 24,
+          "hasta": 30,
+          "visual": "Marca y correo en una tarjeta final.",
+          "voz_en_off": "Si quieres conversar sobre esa idea, escríbenos a Kevoro.",
+          "texto_pantalla": "kevoro.company@gmail.com"
+        }
+      ],
+      "cierre": "Cuéntanos tu idea en kevoro.company@gmail.com.",
+      "produccion": "Animación tipográfica o plano de una hoja. Plantilla genérica; no rellenar con supuestos clientes.",
+      "accesibilidad": "Subtítulos revisados de toda la voz; texto con contraste, fuera de bordes e interfaz; sin destellos ni información que dependa solo del audio.",
+      "audio": "Voz original propuesta, tono conversado. Música opcional únicamente con licencia comprobada; ninguna pista seleccionada ni voz clonada."
+    },
+    {
+      "id": "R03",
+      "dia": "D13",
+      "titulo": "Un botón que explica lo que hace",
+      "formato": "Reel",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Guion completo; grabación y edición pendientes",
+      "duracion_segundos": 30,
+      "formato_video": "Vertical 1080 × 1920 px, 9:16",
+      "caption": "Las palabras son parte de una pantalla. En este boceto ficticio, «Guardar pedido» explica la acción. Léelo sin contexto y revisa si entiendes qué pasaría después.",
+      "hashtags": [
+        "#Kevoro",
+        "#SoftwareParaNegocios",
+        "#IdeasClaras"
+      ],
+      "guion": [
+        {
+          "desde": 0,
+          "hasta": 4,
+          "visual": "Botón abstracto con Continuar. Pie: Boceto ficticio.",
+          "voz_en_off": "¿Qué esperas que pase al tocar este botón?",
+          "texto_pantalla": "Continuar"
+        },
+        {
+          "desde": 4,
+          "hasta": 10,
+          "visual": "Un dedo se acerca y se detiene.",
+          "voz_en_off": "Si la acción no está clara, revisa las palabras.",
+          "texto_pantalla": "La acción debe entenderse"
+        },
+        {
+          "desde": 10,
+          "hasta": 17,
+          "visual": "El mismo botón cambia a Guardar pedido.",
+          "voz_en_off": "Guardar pedido describe lo que se propone hacer.",
+          "texto_pantalla": "Guardar pedido"
+        },
+        {
+          "desde": 17,
+          "hasta": 24,
+          "visual": "Vista del boceto con solo título y botón.",
+          "voz_en_off": "Lee cada opción como si fuera tu primera visita a la pantalla.",
+          "texto_pantalla": "Pruébalo sin contexto"
+        },
+        {
+          "desde": 24,
+          "hasta": 30,
+          "visual": "Cierre verde con sello Ejemplo conceptual.",
+          "voz_en_off": "Busca una palabra que puedas aclarar en tu próximo boceto.",
+          "texto_pantalla": "Las palabras también son diseño"
+        }
+      ],
+      "cierre": "Revisa una palabra de tu próximo boceto.",
+      "produccion": "Diseño abstracto creado para el video; no grabar aplicaciones ni prometer una función disponible.",
+      "accesibilidad": "Subtítulos revisados de toda la voz; texto con contraste, fuera de bordes e interfaz; sin destellos ni información que dependa solo del audio.",
+      "audio": "Voz original propuesta, tono conversado. Música opcional únicamente con licencia comprobada; ninguna pista seleccionada ni voz clonada."
+    },
+    {
+      "id": "R04",
+      "dia": "D17",
+      "titulo": "Explica un proceso con tres papeles",
+      "formato": "Reel",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Guion completo; grabación y edición pendientes",
+      "duracion_segundos": 30,
+      "formato_video": "Vertical 1080 × 1920 px, 9:16",
+      "caption": "Recibir, revisar y responder: un ejemplo sencillo para dibujar un recorrido. Cambia esos pasos por los de tu negocio y marca dónde falta información.",
+      "hashtags": [
+        "#Kevoro",
+        "#SoftwareParaNegocios",
+        "#IdeasClaras"
+      ],
+      "guion": [
+        {
+          "desde": 0,
+          "hasta": 4,
+          "visual": "Tres papeles en blanco sobre mesa clara.",
+          "voz_en_off": "Puedes explicar un proceso con tres papeles.",
+          "texto_pantalla": "Dibuja el recorrido"
+        },
+        {
+          "desde": 4,
+          "hasta": 10,
+          "visual": "Primera tarjeta: Recibir.",
+          "voz_en_off": "En este ejemplo, el primer paso es recibir una solicitud.",
+          "texto_pantalla": "1. Recibir"
+        },
+        {
+          "desde": 10,
+          "hasta": 17,
+          "visual": "Segunda tarjeta: Revisar; una flecha de lápiz las conecta.",
+          "voz_en_off": "Después, revisar qué información hace falta.",
+          "texto_pantalla": "2. Revisar"
+        },
+        {
+          "desde": 17,
+          "hasta": 24,
+          "visual": "Tercera tarjeta: Responder. Las tres quedan visibles.",
+          "voz_en_off": "Y por último, dar una respuesta. Ajusta los pasos a tu trabajo.",
+          "texto_pantalla": "3. Responder"
+        },
+        {
+          "desde": 24,
+          "hasta": 30,
+          "visual": "Una mano deja un lápiz al lado del esquema.",
+          "voz_en_off": "Pídele a alguien de tu equipo que revise el recorrido contigo.",
+          "texto_pantalla": "Revísalo con tu equipo"
+        }
+      ],
+      "cierre": "Dibuja tu recorrido y revísalo con quien participa.",
+      "produccion": "Tomas cenitales de papeles nuevos; sello Ejemplo de proceso. Ningún expediente, formulario real ni paciente.",
+      "accesibilidad": "Subtítulos revisados de toda la voz; texto con contraste, fuera de bordes e interfaz; sin destellos ni información que dependa solo del audio.",
+      "audio": "Voz original propuesta, tono conversado. Música opcional únicamente con licencia comprobada; ninguna pista seleccionada ni voz clonada."
+    },
+    {
+      "id": "R05",
+      "dia": "D22",
+      "titulo": "Un ejemplo inventado para revisar una idea",
+      "formato": "Reel",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Guion completo; grabación y edición pendientes",
+      "duracion_segundos": 30,
+      "formato_video": "Vertical 1080 × 1920 px, 9:16",
+      "caption": "Una demostración puede usar información inventada desde el principio. Marca «Datos ficticios» y enfócate en el recorrido que quieres revisar.",
+      "hashtags": [
+        "#Kevoro",
+        "#SoftwareParaNegocios",
+        "#IdeasClaras"
+      ],
+      "guion": [
+        {
+          "desde": 0,
+          "hasta": 4,
+          "visual": "Tarjeta grande que dice Datos ficticios.",
+          "voz_en_off": "Para revisar una idea, prepara un ejemplo inventado.",
+          "texto_pantalla": "Datos ficticios"
+        },
+        {
+          "desde": 4,
+          "hasta": 10,
+          "visual": "Ficha con Solicitud de ejemplo y Campo A.",
+          "voz_en_off": "Usa una situación simple y deja visible que es ficticia.",
+          "texto_pantalla": "Una solicitud de ejemplo"
+        },
+        {
+          "desde": 10,
+          "hasta": 17,
+          "visual": "La ficha se coloca bajo una etiqueta Revisar.",
+          "voz_en_off": "Mira si se entiende el siguiente paso.",
+          "texto_pantalla": "¿Se entiende qué sigue?"
+        },
+        {
+          "desde": 17,
+          "hasta": 24,
+          "visual": "Se agrega un signo de pregunta dibujado en una nota.",
+          "voz_en_off": "Anota qué falta o qué podría causar una duda.",
+          "texto_pantalla": "Anota la duda"
+        },
+        {
+          "desde": 24,
+          "hasta": 30,
+          "visual": "Cierre con marca y etiqueta del ejemplo.",
+          "voz_en_off": "La conversación puede empezar con un boceto y datos inventados.",
+          "texto_pantalla": "El boceto también sirve"
+        }
+      ],
+      "cierre": "Usa datos ficticios en tu próximo boceto.",
+      "produccion": "Tarjetas abstractas; sin personas identificables, datos sanitarios ni capturas. Mantener rótulo Datos ficticios durante todo el video.",
+      "accesibilidad": "Subtítulos revisados de toda la voz; texto con contraste, fuera de bordes e interfaz; sin destellos ni información que dependa solo del audio.",
+      "audio": "Voz original propuesta, tono conversado. Música opcional únicamente con licencia comprobada; ninguna pista seleccionada ni voz clonada."
+    },
+    {
+      "id": "R06",
+      "dia": "D26",
+      "titulo": "Antes de pedir una herramienta",
+      "formato": "Reel",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Guion completo; grabación y edición pendientes",
+      "duracion_segundos": 30,
+      "formato_video": "Vertical 1080 × 1920 px, 9:16",
+      "caption": "Prepara una descripción corta: cómo haces hoy la tarea y qué te gustaría cambiar. Si quieres conversar sobre una idea de software, el correo de Kevoro es kevoro.company@gmail.com.",
+      "hashtags": [
+        "#Kevoro",
+        "#SoftwareParaNegocios",
+        "#IdeasClaras"
+      ],
+      "guion": [
+        {
+          "desde": 0,
+          "hasta": 4,
+          "visual": "Cuaderno abierto con título Mi idea.",
+          "voz_en_off": "Antes de pedir una herramienta, escribe cómo haces hoy la tarea.",
+          "texto_pantalla": "Cómo la haces hoy"
+        },
+        {
+          "desde": 4,
+          "hasta": 11,
+          "visual": "Dibujo simple de un recorrido en papel.",
+          "voz_en_off": "Cuenta el recorrido con tus propias palabras.",
+          "texto_pantalla": "El recorrido, paso a paso"
+        },
+        {
+          "desde": 11,
+          "hasta": 18,
+          "visual": "Se subraya una parte del recorrido.",
+          "voz_en_off": "Marca qué te gustaría cambiar primero.",
+          "texto_pantalla": "Qué cambiarías primero"
+        },
+        {
+          "desde": 18,
+          "hasta": 24,
+          "visual": "Tarjeta que dice Mi idea, con espacio libre.",
+          "voz_en_off": "Ese contexto es un buen punto de partida para conversar.",
+          "texto_pantalla": "Una idea para conversar"
+        },
+        {
+          "desde": 24,
+          "hasta": 30,
+          "visual": "Cierre con Kevoro, Bogotá y correo.",
+          "voz_en_off": "Somos Kevoro, en Bogotá. Escríbenos y cuéntanos tu idea.",
+          "texto_pantalla": "kevoro.company@gmail.com"
+        }
+      ],
+      "cierre": "Escríbenos a kevoro.company@gmail.com.",
+      "produccion": "Cuaderno y tipografía Pulso. Sin cotizaciones, precios, plazos de respuesta o promesas de implementación.",
+      "accesibilidad": "Subtítulos revisados de toda la voz; texto con contraste, fuera de bordes e interfaz; sin destellos ni información que dependa solo del audio.",
+      "audio": "Voz original propuesta, tono conversado. Música opcional únicamente con licencia comprobada; ninguna pista seleccionada ni voz clonada."
+    }
+  ],
+  "stories": [
+    {
+      "id": "S01",
+      "dia": "D2",
+      "titulo": "Empezamos por escucharte",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Textos y brief completos; artes verticales pendientes",
+      "formato": "Stories",
+      "pantallas": [
+        {
+          "orden": 1,
+          "texto": "Somos Kevoro. Software sencillo para negocios, desde Bogotá.",
+          "alt": "Tarjeta tipográfica con el texto: Somos Kevoro. Software sencillo para negocios, desde Bogotá."
+        },
+        {
+          "orden": 2,
+          "texto": "¿Qué tarea te gustaría explicar mejor en tu negocio? Cuéntala en una frase, sin datos de otras personas.",
+          "alt": "Tarjeta tipográfica con el texto: ¿Qué tarea te gustaría explicar mejor en tu negocio? Cuéntala en una frase, sin datos de otras personas."
+        }
+      ],
+      "interaccion": "Caja de pregunta propuesta; no instalada ni publicada.",
+      "brief_visual": "Dos pantallas verticales 1080 × 1920. Alternar verde y blanco cálido, Manrope grande, contenido lejos de controles de Instagram. Solo tipografía y formas originales."
+    },
+    {
+      "id": "S02",
+      "dia": "D5",
+      "titulo": "Basilia, con palabras sencillas",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Textos y brief completos; artes verticales pendientes",
+      "formato": "Stories",
+      "pantallas": [
+        {
+          "orden": 1,
+          "texto": "Basilia Connect. Agenda de trabajo para clínicas y recordatorios por WhatsApp.",
+          "alt": "Texto de Basilia Connect junto a dos bloques vacíos de agenda, rotulados Ilustración conceptual."
+        },
+        {
+          "orden": 2,
+          "texto": "¿Quieres conocerla? Solicita una demo en kevoro.company@gmail.com.",
+          "alt": "Tarjeta de contacto de Kevoro que invita a solicitar una demo por correo."
+        }
+      ],
+      "interaccion": "Invitación propuesta a solicitar una demo por correo; no hay envíos ni fecha de demo confirmada.",
+      "brief_visual": "Dos pantallas verticales 1080 × 1920. Alternar verde y blanco cálido, Manrope grande, contenido lejos de controles de Instagram. Solo tipografía y formas originales."
+    },
+    {
+      "id": "S03",
+      "dia": "D9",
+      "titulo": "Empieza por una tarea",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Textos y brief completos; artes verticales pendientes",
+      "formato": "Stories",
+      "pantallas": [
+        {
+          "orden": 1,
+          "texto": "Piensa en una tarea que se repita en tu negocio.",
+          "alt": "Tarjeta tipográfica con el texto: Piensa en una tarea que se repita en tu negocio."
+        },
+        {
+          "orden": 2,
+          "texto": "¿Puedes dibujar cómo empieza y cómo termina?",
+          "alt": "Tarjeta tipográfica con el texto: ¿Puedes dibujar cómo empieza y cómo termina?"
+        }
+      ],
+      "interaccion": "Encuesta propuesta: Ya lo tengo claro / Lo quiero dibujar.",
+      "brief_visual": "Dos pantallas verticales 1080 × 1920. Alternar verde y blanco cálido, Manrope grande, contenido lejos de controles de Instagram. Solo tipografía y formas originales."
+    },
+    {
+      "id": "S04",
+      "dia": "D12",
+      "titulo": "Las palabras de una pantalla",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Textos y brief completos; artes verticales pendientes",
+      "formato": "Stories",
+      "pantallas": [
+        {
+          "orden": 1,
+          "texto": "Boceto ficticio: un botón dice Continuar.",
+          "alt": "Tarjeta tipográfica con el texto: Boceto ficticio: un botón dice Continuar."
+        },
+        {
+          "orden": 2,
+          "texto": "Ahora dice Guardar pedido. ¿Cuál explica mejor lo que haría?",
+          "alt": "Tarjeta tipográfica con el texto: Ahora dice Guardar pedido. ¿Cuál explica mejor lo que haría?"
+        }
+      ],
+      "interaccion": "Encuesta propuesta sobre claridad, sin afirmar una función del producto.",
+      "brief_visual": "Dos pantallas verticales 1080 × 1920. Alternar verde y blanco cálido, Manrope grande, contenido lejos de controles de Instagram. Solo tipografía y formas originales."
+    },
+    {
+      "id": "S05",
+      "dia": "D16",
+      "titulo": "El recorrido en una hoja",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Textos y brief completos; artes verticales pendientes",
+      "formato": "Stories",
+      "pantallas": [
+        {
+          "orden": 1,
+          "texto": "Recibir → Revisar → Responder. Este es un ejemplo de proceso.",
+          "alt": "Tarjeta tipográfica con el texto: Recibir → Revisar → Responder. Este es un ejemplo de proceso."
+        },
+        {
+          "orden": 2,
+          "texto": "Cambia los verbos por los de tu negocio. ¿Dónde falta información?",
+          "alt": "Tarjeta tipográfica con el texto: Cambia los verbos por los de tu negocio. ¿Dónde falta información?"
+        }
+      ],
+      "interaccion": "Plantilla de texto, lista para maquetar.",
+      "brief_visual": "Dos pantallas verticales 1080 × 1920. Alternar verde y blanco cálido, Manrope grande, contenido lejos de controles de Instagram. Solo tipografía y formas originales."
+    },
+    {
+      "id": "S06",
+      "dia": "D19",
+      "titulo": "Ejemplos que se entienden",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Textos y brief completos; artes verticales pendientes",
+      "formato": "Stories",
+      "pantallas": [
+        {
+          "orden": 1,
+          "texto": "Para revisar una idea, una ficha inventada puede ser suficiente.",
+          "alt": "Tarjeta tipográfica con el texto: Para revisar una idea, una ficha inventada puede ser suficiente."
+        },
+        {
+          "orden": 2,
+          "texto": "Pon Datos ficticios a la vista y conversa sobre el recorrido.",
+          "alt": "Tarjeta tipográfica con el texto: Pon Datos ficticios a la vista y conversa sobre el recorrido."
+        }
+      ],
+      "interaccion": "Tarjeta educativa; no pedir capturas ni datos personales.",
+      "brief_visual": "Dos pantallas verticales 1080 × 1920. Alternar verde y blanco cálido, Manrope grande, contenido lejos de controles de Instagram. Solo tipografía y formas originales."
+    },
+    {
+      "id": "S07",
+      "dia": "D23",
+      "titulo": "Una idea por aclarar",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Textos y brief completos; artes verticales pendientes",
+      "formato": "Stories",
+      "pantallas": [
+        {
+          "orden": 1,
+          "texto": "De tu idea de software, ¿qué te gustaría entender mejor?",
+          "alt": "Tarjeta tipográfica con el texto: De tu idea de software, ¿qué te gustaría entender mejor?"
+        },
+        {
+          "orden": 2,
+          "texto": "Puedes escribirnos a kevoro.company@gmail.com con una descripción general.",
+          "alt": "Tarjeta tipográfica con el texto: Puedes escribirnos a kevoro.company@gmail.com con una descripción general."
+        }
+      ],
+      "interaccion": "Caja de pregunta opcional propuesta; ninguna respuesta recibida.",
+      "brief_visual": "Dos pantallas verticales 1080 × 1920. Alternar verde y blanco cálido, Manrope grande, contenido lejos de controles de Instagram. Solo tipografía y formas originales."
+    },
+    {
+      "id": "S08",
+      "dia": "D25",
+      "titulo": "El primer correo",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Textos y brief completos; artes verticales pendientes",
+      "formato": "Stories",
+      "pantallas": [
+        {
+          "orden": 1,
+          "texto": "Puedes empezar así: En mi negocio hacemos ____. Me gustaría cambiar ____.",
+          "alt": "Tarjeta tipográfica con el texto: Puedes empezar así: En mi negocio hacemos ____. Me gustaría cambiar ____."
+        },
+        {
+          "orden": 2,
+          "texto": "Kevoro · Bogotá, Colombia\nkevoro.company@gmail.com",
+          "alt": "Tarjeta tipográfica con el texto: Kevoro · Bogotá, Colombia\nkevoro.company@gmail.com"
+        }
+      ],
+      "interaccion": "Plantilla sin enlace de envío automático ni información privada.",
+      "brief_visual": "Dos pantallas verticales 1080 × 1920. Alternar verde y blanco cálido, Manrope grande, contenido lejos de controles de Instagram. Solo tipografía y formas originales."
+    },
+    {
+      "id": "S09",
+      "dia": "D28",
+      "titulo": "Volvamos a la idea",
+      "estado": "Pendiente de aprobación del CEO",
+      "estado_produccion": "Textos y brief completos; artes verticales pendientes",
+      "formato": "Stories",
+      "pantallas": [
+        {
+          "orden": 1,
+          "texto": "Este mes propusimos mirar tareas, palabras y recorridos.",
+          "alt": "Tarjeta tipográfica con el texto: Este mes propusimos mirar tareas, palabras y recorridos."
+        },
+        {
+          "orden": 2,
+          "texto": "¿Qué tema te gustaría que expliquemos con otro ejemplo?",
+          "alt": "Tarjeta tipográfica con el texto: ¿Qué tema te gustaría que expliquemos con otro ejemplo?"
+        }
+      ],
+      "interaccion": "Pregunta editorial propuesta; no simular respuestas.",
+      "brief_visual": "Dos pantallas verticales 1080 × 1920. Alternar verde y blanco cálido, Manrope grande, contenido lejos de controles de Instagram. Solo tipografía y formas originales."
+    }
+  ],
+  "comunidad": [
+    {
+      "id": "C01",
+      "dia": "D7",
+      "titulo": "Revisión de preguntas sobre Kevoro",
+      "estado": "Pendiente de aprobación del CEO",
+      "accion_propuesta": "Si hay comentarios reales tras una futura publicación aprobada, leerlos sin exportar datos personales. Preparar respuestas a preguntas sobre qué hacemos. No enviar nada desde este plan.",
+      "borrador_respuesta": "Gracias por escribir. En Kevoro hacemos software para negocios desde Bogotá. Si quieres conversar sobre una idea, puedes contárnosla en kevoro.company@gmail.com."
+    },
+    {
+      "id": "C02",
+      "dia": "D14",
+      "titulo": "Aclarar preguntas de alcance",
+      "estado": "Pendiente de aprobación del CEO",
+      "accion_propuesta": "Agrupar dudas reales, si existen. Separar consultas de producto de sugerencias generales; llevar al CEO cualquier capacidad o disponibilidad no confirmada.",
+      "borrador_respuesta": "Gracias por la pregunta. Para hablar de esa función necesitamos revisar primero el alcance. Si nos cuentas qué tarea quieres resolver, podemos empezar por ahí."
+    },
+    {
+      "id": "C03",
+      "dia": "D21",
+      "titulo": "Revisión de dudas de los ejemplos",
+      "estado": "Pendiente de aprobación del CEO",
+      "accion_propuesta": "Revisar si los ejemplos conceptuales se entendieron. No presentar comentarios hipotéticos como respuestas de la comunidad.",
+      "borrador_respuesta": "La imagen es un ejemplo conceptual con información inventada. La usamos para explicar cómo revisar un recorrido; no es una pantalla de un producto disponible."
+    },
+    {
+      "id": "C04",
+      "dia": "D27",
+      "titulo": "Preparar próximos temas",
+      "estado": "Pendiente de aprobación del CEO",
+      "accion_propuesta": "Si hay preguntas suministradas con autorización, convertir temas generales en borradores para otro mes, sin citar personas. Si no hay, registrar que falta evidencia.",
+      "borrador_respuesta": "Gracias por proponer ese tema. Lo tendremos en cuenta para preparar otro ejemplo sencillo. No compartas datos privados por aquí."
+    }
+  ],
+  "calendario": [
+    {
+      "dia": "D1",
+      "tipo": "Post",
+      "contenido_id": "P01",
+      "titulo": "Menos vueltas. Más negocio.",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D2",
+      "tipo": "Stories",
+      "contenido_id": "S01",
+      "titulo": "Empezamos por escucharte",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D3",
+      "tipo": "Post",
+      "contenido_id": "P02",
+      "titulo": "Tu agenda, con todo en su lugar.",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D4",
+      "tipo": "Reel",
+      "contenido_id": "R01",
+      "titulo": "Basilia Connect, en pocas palabras",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D5",
+      "tipo": "Stories",
+      "contenido_id": "S02",
+      "titulo": "Basilia, con palabras sencillas",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D6",
+      "tipo": "Post",
+      "contenido_id": "P03",
+      "titulo": "Tu idea merece una herramienta propia.",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D7",
+      "tipo": "Comunidad",
+      "contenido_id": "C01",
+      "titulo": "Revisión de preguntas sobre Kevoro",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D8",
+      "tipo": "Post",
+      "contenido_id": "P04",
+      "titulo": "Empieza por lo que se repite.",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D9",
+      "tipo": "Stories",
+      "contenido_id": "S03",
+      "titulo": "Empieza por una tarea",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D10",
+      "tipo": "Reel",
+      "contenido_id": "R02",
+      "titulo": "Tu idea de software en una frase",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D11",
+      "tipo": "Post",
+      "contenido_id": "P05",
+      "titulo": "Que se entienda a la primera.",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D12",
+      "tipo": "Stories",
+      "contenido_id": "S04",
+      "titulo": "Las palabras de una pantalla",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D13",
+      "tipo": "Reel",
+      "contenido_id": "R03",
+      "titulo": "Un botón que explica lo que hace",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D14",
+      "tipo": "Comunidad",
+      "contenido_id": "C02",
+      "titulo": "Aclarar preguntas de alcance",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D15",
+      "tipo": "Post",
+      "contenido_id": "P06",
+      "titulo": "Dibuja el recorrido.",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D16",
+      "tipo": "Stories",
+      "contenido_id": "S05",
+      "titulo": "El recorrido en una hoja",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D17",
+      "tipo": "Reel",
+      "contenido_id": "R04",
+      "titulo": "Explica un proceso con tres papeles",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D18",
+      "tipo": "Post",
+      "contenido_id": "P07",
+      "titulo": "Prueba con un ejemplo inventado.",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D19",
+      "tipo": "Stories",
+      "contenido_id": "S06",
+      "titulo": "Ejemplos que se entienden",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D20",
+      "tipo": "Post",
+      "contenido_id": "P08",
+      "titulo": "Tu próximo paso, por escrito.",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D21",
+      "tipo": "Comunidad",
+      "contenido_id": "C03",
+      "titulo": "Revisión de dudas de los ejemplos",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D22",
+      "tipo": "Reel",
+      "contenido_id": "R05",
+      "titulo": "Un ejemplo inventado para revisar una idea",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D23",
+      "tipo": "Stories",
+      "contenido_id": "S07",
+      "titulo": "Una idea por aclarar",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D24",
+      "tipo": "Post",
+      "contenido_id": "P09",
+      "titulo": "Hablemos de tu negocio.",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D25",
+      "tipo": "Stories",
+      "contenido_id": "S08",
+      "titulo": "El primer correo",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D26",
+      "tipo": "Reel",
+      "contenido_id": "R06",
+      "titulo": "Antes de pedir una herramienta",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D27",
+      "tipo": "Comunidad",
+      "contenido_id": "C04",
+      "titulo": "Preparar próximos temas",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D28",
+      "tipo": "Stories",
+      "contenido_id": "S09",
+      "titulo": "Volvamos a la idea",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "Por definir después de aprobar el plan; sin horario óptimo supuesto"
+    },
+    {
+      "dia": "D29",
+      "tipo": "Revisión interna",
+      "contenido_id": "I01",
+      "titulo": "Revisar claridad y preguntas recibidas",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "No aplica",
+      "detalle": "Revisar piezas y comentarios reales que el CEO facilite, si existen. Anotar temas claros, dudas y material pendiente. Sin inventar métricas, comentarios o resultados."
+    },
+    {
+      "dia": "D30",
+      "tipo": "Decisión editorial",
+      "contenido_id": "I02",
+      "titulo": "Entregar propuesta del siguiente ciclo",
+      "estado": "Pendiente de aprobación del CEO",
+      "hora": "No aplica",
+      "detalle": "Presentar al CEO los temas a mantener o ajustar y sus razones. El siguiente ciclo requiere un resultado revisable; este documento no programa ni publica contenido."
+    }
+  ],
+  "artes_existentes": [
+    {
+      "ruta": "../marca/posts/post-01.svg",
+      "titulo": "Presentación Kevoro",
+      "estado": "Arte SVG propuesto, pendiente CEO.",
+      "alt": "Arte verde y lima con Menos vueltas. Más negocio. Software sencillo, hecho en Bogotá."
+    },
+    {
+      "ruta": "../marca/posts/post-02.svg",
+      "titulo": "Basilia Connect · agenda conceptual",
+      "estado": "Arte SVG propuesto, pendiente CEO. Solicitar demo no garantiza fecha inmediata.",
+      "alt": "Ilustración conceptual de una agenda sin nombres ni datos reales. Texto: Tu agenda, con todo en su lugar. Solicita una demo."
+    },
+    {
+      "ruta": "../marca/posts/post-03.svg",
+      "titulo": "Una idea para conversar",
+      "estado": "Arte SVG propuesto, pendiente CEO.",
+      "alt": "Arte azul claro con formas geométricas y Tu idea merece una herramienta propia."
+    }
+  ],
+  "inventario_entrega": {
+    "posts_texto_completo": 9,
+    "propuestas_tipograficas_en_galeria": 9,
+    "artes_svg_existentes": 3,
+    "reels_guion_completo": 6,
+    "reels_renderizados": 0,
+    "secuencias_stories": 9,
+    "stories_artes_exportados": 0,
+    "dias_calendario": 30
+  },
+  "verificacion_editorial": [
+    "Bio menor de 150 caracteres.",
+    "Cada día D1 a D30 aparece una vez.",
+    "Cada post tiene texto, caption, hashtags, alt y brief.",
+    "Cada Reel tiene tiempos continuos, visual, voz, texto y cierre.",
+    "Ninguna pieza depende de datos reales de personas ni de funciones no confirmadas.",
+    "Todas las piezas y actividades requieren aprobación del CEO."
+  ]
+}

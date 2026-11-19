@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /kevoro-web/
+Sitemap: https://maconde971218.github.io/kevoro-web/sitemap.xml

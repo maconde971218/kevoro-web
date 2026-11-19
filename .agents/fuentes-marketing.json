@@ -1,0 +1,547 @@
+{
+  "schema_version": 1,
+  "source_review_date": "2026-11-19",
+  "repository": "coreyhaines31/marketingskills",
+  "repository_url": "https://github.com/coreyhaines31/marketingskills",
+  "commit": "73573e94a06a39965978b3fa1f9c1eace8cebc7c",
+  "author": "Corey Haines",
+  "author_evidence": [
+    "README attributes author Corey Haines and links https://corey.co and Conversion Factory",
+    "Repository owner coreyhaines31; public GitHub repository, not archived",
+    "LICENSE attributes Copyright (c) 2025 Corey Haines"
+  ],
+  "license": "MIT",
+  "official_catalog_review": {
+    "repository": "openai/skills",
+    "commit": "49f948faa9258a0c61caceaf225e179651397431",
+    "result": "No dedicated marketing, copywriting, social-content or SEO skills found in the inspected catalog; official frontend/browser skills are handled separately."
+  },
+  "third_party_license": {
+    "repository": "retieedra-profound/skills-marketing-library",
+    "commit": "80293f156c27d3f90aedebfb3c27309769b2eec6",
+    "path": "LICENSE",
+    "git_blob_sha": "6d997ff19f340ee635487352e5bc3695a75b2af9",
+    "sha256": "f06665f819f38e0d65b9580e5d7e184df4f6b59981417fae3e6b0680b074dda7",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2026 Profound",
+    "reason": "Upstream attributes adapted methods to Profound and Wispr Flow in skills-marketing-library; preserve that repository license in affected packages."
+  },
+  "constraints": [
+    "Solo archivos documentales Agent Skills, sin ejecutables, scripts, instaladores, APIs ni herramientas de publicación.",
+    "Solo borradores locales y propuestas; no cuentas, publicaciones, DMs, correos, despliegues ni gasto.",
+    "CEO aprueba resultados completos; no aprobaciones técnicas por sección.",
+    "No clientes, testimonios, métricas o resultados inventados; incertidumbre explícita y fuentes.",
+    "Sin pacientes, datos sanitarios reales, secretos o contraseñas.",
+    "No modificaciones a .claude/, CLAUDE.md ni productos durante esta instalación."
+  ],
+  "omitted": [
+    {
+      "path": "skills/copywriting/references/natural-transitions.md",
+      "reason": "Atribuye material a Academic Phrasebank y Plain English; no se comprobó licencia separada para redistribuir esa documentación."
+    },
+    {
+      "path": "skills/copy-editing/references/plain-english-alternatives.md",
+      "reason": "Atribuye material a Plain English Campaign y otras guías; se omite por licencia secundaria no verificada y foco en español."
+    },
+    {
+      "path": "skills/content-strategy/references/headless-cms.md",
+      "reason": "Comparación CMS e integraciones de publicación innecesarias para equipar marca y web."
+    },
+    {
+      "path": "skills/social/references/listening.md",
+      "reason": "Scraping y monitorización de cuentas no necesarios para borradores y calendarios."
+    },
+    {
+      "path": "skills/social/references/listening-sources-template.md",
+      "reason": "Depende del flujo listening omitido."
+    },
+    {
+      "path": "skills/social/references/reverse-engineering.md",
+      "reason": "Recopilación masiva de publicaciones fuera de alcance."
+    },
+    {
+      "path": "skills/social/references/x-algorithm.md",
+      "reason": "Detalles de ranking de X no necesarios; no prometer alcance ni tratar pesos como hechos actuales."
+    },
+    {
+      "package": "video",
+      "reason": "Pipeline de vídeo IA, avatares y proveedores de pago innecesarios. social incluye guiones y storyboards Reels."
+    },
+    {
+      "package": "marketing-plan",
+      "reason": "Marco extenso de agencia, presupuestos y canales redundante con posicionamiento y estrategia editorial."
+    },
+    {
+      "package": "site-architecture",
+      "reason": "La web actual es una página; seo-audit cubre la revisión inicial. Reevaluar al crecer."
+    },
+    {
+      "package": "ads, cold-email, prospecting, marketing-loops, tools, integrations, evals",
+      "reason": "Publicación, outbound, monitorización, servicios o ejecutables fuera del alcance de equipamiento documental."
+    }
+  ],
+  "skills": [
+    {
+      "name": "product-marketing",
+      "reason": "Definir posicionamiento, público y voz de marca usando contexto verificado.",
+      "installed_path": ".agents/skills/product-marketing",
+      "upstream_path": "skills/product-marketing",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/73573e94a06a39965978b3fa1f9c1eace8cebc7c/skills/product-marketing",
+      "commit": "73573e94a06a39965978b3fa1f9c1eace8cebc7c",
+      "license": "MIT",
+      "files": [
+        {
+          "path": ".agents/skills/product-marketing/SKILL.md",
+          "upstream_path": "skills/product-marketing/SKILL.md",
+          "git_blob_sha": "a8197bddb8739b62c0e35504207d2565396d3915",
+          "upstream_sha256": "8dbccc22998b3cac194c3509fa93d119163b82c9b0a1ce573e6737e5a5ccf555",
+          "sha256": "9cd97df6ea2ede44723f991e1b6e0671ad6cdeb123f483d463d2cc84a14807d9",
+          "modified": true
+        },
+        {
+          "path": ".agents/skills/product-marketing/references/brand-voice.md",
+          "upstream_path": "skills/product-marketing/references/brand-voice.md",
+          "git_blob_sha": "697bc73db156319753d16e4eecfc8aadb469ef92",
+          "upstream_sha256": "932f3453db2761f03050792e39800150495dab449750b40913a4314ea97e7672",
+          "sha256": "932f3453db2761f03050792e39800150495dab449750b40913a4314ea97e7672",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/product-marketing/LICENSE",
+          "upstream_path": "LICENSE",
+          "git_blob_sha": "7c48dd638a9ebed49a8ef0c0c4eea90105381cdf",
+          "upstream_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/product-marketing/THIRD-PARTY-LICENSE",
+          "upstream_repository": "retieedra-profound/skills-marketing-library",
+          "upstream_commit": "80293f156c27d3f90aedebfb3c27309769b2eec6",
+          "upstream_path": "LICENSE",
+          "git_blob_sha": "6d997ff19f340ee635487352e5bc3695a75b2af9",
+          "upstream_sha256": "f06665f819f38e0d65b9580e5d7e184df4f6b59981417fae3e6b0680b074dda7",
+          "sha256": "f06665f819f38e0d65b9580e5d7e184df4f6b59981417fae3e6b0680b074dda7",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/product-marketing/SOURCE.md",
+          "sha256": "568258352521e2a9e696e9eba59371b06dcefd7bf5c81fbf984f5c6c0909c5cc",
+          "generated_local": true
+        }
+      ],
+      "adaptations": [
+        "Añadidos license: MIT y límites Kevoro al inicio de SKILL.md.",
+        "Solo documentos Markdown y avisos de licencia. Las herramientas externas mencionadas no están instaladas ni autorizadas.",
+        "Ejemplos, cifras y recomendaciones de plataformas se conservan como material de referencia sujeto a verificación, no hechos de Kevoro ni garantías.",
+        "El contexto de Claude se usa solo como lectura; no se migra ni modifica.",
+        "El flujo produce un borrador completo para revisión, sin aprobación sección por sección."
+      ]
+    },
+    {
+      "name": "copywriting",
+      "reason": "Redactar titulares, mensajes, páginas y llamadas a la acción claras.",
+      "installed_path": ".agents/skills/copywriting",
+      "upstream_path": "skills/copywriting",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/73573e94a06a39965978b3fa1f9c1eace8cebc7c/skills/copywriting",
+      "commit": "73573e94a06a39965978b3fa1f9c1eace8cebc7c",
+      "license": "MIT",
+      "files": [
+        {
+          "path": ".agents/skills/copywriting/SKILL.md",
+          "upstream_path": "skills/copywriting/SKILL.md",
+          "git_blob_sha": "d70d0b8855f2dc1ed06b9d72a373cdc448ed4e8e",
+          "upstream_sha256": "86dc0466493e8ac59ab17a8f28fd1403e2a322921ed2a8f96b2d0c442ad99d01",
+          "sha256": "2c00d79c4d81a074a9c15753934bd981b75acea63aa59fbed05e1864c08fe6fc",
+          "modified": true
+        },
+        {
+          "path": ".agents/skills/copywriting/references/ai-tells.md",
+          "upstream_path": "skills/copywriting/references/ai-tells.md",
+          "git_blob_sha": "0a93ab3b88fc2c683ff6280db187644a7aa04612",
+          "upstream_sha256": "b98c3a19b3a75c714d69e80a0076e4c07244b0e833c2ce81ff2631224fb7f7b2",
+          "sha256": "b98c3a19b3a75c714d69e80a0076e4c07244b0e833c2ce81ff2631224fb7f7b2",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/copywriting/references/copy-frameworks.md",
+          "upstream_path": "skills/copywriting/references/copy-frameworks.md",
+          "git_blob_sha": "c19bc984e6f64e89d7c234ee110a368e60284ab4",
+          "upstream_sha256": "4db06c481a904be3e4571ad8f671532c97ec186ddf0fb8aee3e3a56ef8e3d441",
+          "sha256": "4db06c481a904be3e4571ad8f671532c97ec186ddf0fb8aee3e3a56ef8e3d441",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/copywriting/LICENSE",
+          "upstream_path": "LICENSE",
+          "git_blob_sha": "7c48dd638a9ebed49a8ef0c0c4eea90105381cdf",
+          "upstream_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/copywriting/THIRD-PARTY-LICENSE",
+          "upstream_repository": "retieedra-profound/skills-marketing-library",
+          "upstream_commit": "80293f156c27d3f90aedebfb3c27309769b2eec6",
+          "upstream_path": "LICENSE",
+          "git_blob_sha": "6d997ff19f340ee635487352e5bc3695a75b2af9",
+          "upstream_sha256": "f06665f819f38e0d65b9580e5d7e184df4f6b59981417fae3e6b0680b074dda7",
+          "sha256": "f06665f819f38e0d65b9580e5d7e184df4f6b59981417fae3e6b0680b074dda7",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/copywriting/SOURCE.md",
+          "sha256": "eac8c772c046190374f18f092c55750243d0c166c45d11102c1acbed3e4a62b3",
+          "generated_local": true
+        }
+      ],
+      "adaptations": [
+        "Añadidos license: MIT y límites Kevoro al inicio de SKILL.md.",
+        "Solo documentos Markdown y avisos de licencia. Las herramientas externas mencionadas no están instaladas ni autorizadas.",
+        "Ejemplos, cifras y recomendaciones de plataformas se conservan como material de referencia sujeto a verificación, no hechos de Kevoro ni garantías.",
+        "Retirada estadística general de conversiones no verificada como argumento de autoridad.",
+        "Omitida natural-transitions.md por licencia secundaria no verificada."
+      ]
+    },
+    {
+      "name": "copy-editing",
+      "reason": "Revisar claridad, coherencia y evidencia de los textos antes de entregarlos.",
+      "installed_path": ".agents/skills/copy-editing",
+      "upstream_path": "skills/copy-editing",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/73573e94a06a39965978b3fa1f9c1eace8cebc7c/skills/copy-editing",
+      "commit": "73573e94a06a39965978b3fa1f9c1eace8cebc7c",
+      "license": "MIT",
+      "files": [
+        {
+          "path": ".agents/skills/copy-editing/SKILL.md",
+          "upstream_path": "skills/copy-editing/SKILL.md",
+          "git_blob_sha": "2065709be9c2571fc34ad79a0f453fb040d8c1c0",
+          "upstream_sha256": "ef6bf9e792edac9ff524576a7eea6980fd13e605e5561736b045136341cde63e",
+          "sha256": "b3b8f83229340ade1d6420d1b4670f7318ba3ba6bda056ed76ce0d42eccaeb21",
+          "modified": true
+        },
+        {
+          "path": ".agents/skills/copy-editing/references/checklist.md",
+          "upstream_path": "skills/copy-editing/references/checklist.md",
+          "git_blob_sha": "1f33b2100a1d49db4858987e4b6bcbbd783d5b79",
+          "upstream_sha256": "4cf94c922286223681fc53721fcc65ae7299f1e36e797e7397d369d674580c60",
+          "sha256": "4cf94c922286223681fc53721fcc65ae7299f1e36e797e7397d369d674580c60",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/copy-editing/references/content-refresh.md",
+          "upstream_path": "skills/copy-editing/references/content-refresh.md",
+          "git_blob_sha": "5def44f806c36e66b1d69400c33ec63a4e0d024d",
+          "upstream_sha256": "ba73cdf278fe6b552eee27eb1452494f11f9d17ef67d720657e0982f76fb961b",
+          "sha256": "ba73cdf278fe6b552eee27eb1452494f11f9d17ef67d720657e0982f76fb961b",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/copy-editing/LICENSE",
+          "upstream_path": "LICENSE",
+          "git_blob_sha": "7c48dd638a9ebed49a8ef0c0c4eea90105381cdf",
+          "upstream_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/copy-editing/THIRD-PARTY-LICENSE",
+          "upstream_repository": "retieedra-profound/skills-marketing-library",
+          "upstream_commit": "80293f156c27d3f90aedebfb3c27309769b2eec6",
+          "upstream_path": "LICENSE",
+          "git_blob_sha": "6d997ff19f340ee635487352e5bc3695a75b2af9",
+          "upstream_sha256": "f06665f819f38e0d65b9580e5d7e184df4f6b59981417fae3e6b0680b074dda7",
+          "sha256": "f06665f819f38e0d65b9580e5d7e184df4f6b59981417fae3e6b0680b074dda7",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/copy-editing/SOURCE.md",
+          "sha256": "655c8d73882b9b4fa0933811333d2a733bf1b84f33ad9e40c9c7525f57231949",
+          "generated_local": true
+        }
+      ],
+      "adaptations": [
+        "Añadidos license: MIT y límites Kevoro al inicio de SKILL.md.",
+        "Solo documentos Markdown y avisos de licencia. Las herramientas externas mencionadas no están instaladas ni autorizadas.",
+        "Ejemplos, cifras y recomendaciones de plataformas se conservan como material de referencia sujeto a verificación, no hechos de Kevoro ni garantías.",
+        "Omitida plain-english-alternatives.md por licencia secundaria no verificada; se mantiene el principio general de lenguaje claro."
+      ]
+    },
+    {
+      "name": "content-strategy",
+      "reason": "Organizar pilares, temas y calendario editorial según audiencia e intención de búsqueda.",
+      "installed_path": ".agents/skills/content-strategy",
+      "upstream_path": "skills/content-strategy",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/73573e94a06a39965978b3fa1f9c1eace8cebc7c/skills/content-strategy",
+      "commit": "73573e94a06a39965978b3fa1f9c1eace8cebc7c",
+      "license": "MIT",
+      "files": [
+        {
+          "path": ".agents/skills/content-strategy/SKILL.md",
+          "upstream_path": "skills/content-strategy/SKILL.md",
+          "git_blob_sha": "61a9c7ad6dd9ec215d28f8bfe72820ab3f6a1023",
+          "upstream_sha256": "6bc1c8df711a6c9466e312dca9c99a895bd76989b7a52d0f39dca340db3bc5f5",
+          "sha256": "29f967e4933b4181c769148b54d4ce34e2f945bf1cda8514c6cc1ef967ec7bfe",
+          "modified": true
+        },
+        {
+          "path": ".agents/skills/content-strategy/references/content-distribution.md",
+          "upstream_path": "skills/content-strategy/references/content-distribution.md",
+          "git_blob_sha": "6f4a3c38a15e9949727ebcf621f0054710a02a83",
+          "upstream_sha256": "1861a1aab0627ab29c279000879a9889242da1ba85e677acdc759c66a6241778",
+          "sha256": "1861a1aab0627ab29c279000879a9889242da1ba85e677acdc759c66a6241778",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/content-strategy/LICENSE",
+          "upstream_path": "LICENSE",
+          "git_blob_sha": "7c48dd638a9ebed49a8ef0c0c4eea90105381cdf",
+          "upstream_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/content-strategy/SOURCE.md",
+          "sha256": "f5969082e3e47a53631d208f011cfda587b5d8b557e6bee800f9cddbe6766be8",
+          "generated_local": true
+        }
+      ],
+      "adaptations": [
+        "Añadidos license: MIT y límites Kevoro al inicio de SKILL.md.",
+        "Solo documentos Markdown y avisos de licencia. Las herramientas externas mencionadas no están instaladas ni autorizadas.",
+        "Ejemplos, cifras y recomendaciones de plataformas se conservan como material de referencia sujeto a verificación, no hechos de Kevoro ni garantías.",
+        "Omitida headless-cms.md: selección/integraciones CMS no necesarias para este encargo."
+      ]
+    },
+    {
+      "name": "social",
+      "reason": "Preparar borradores, calendarios, carruseles y guiones de Reels sin publicar.",
+      "installed_path": ".agents/skills/social",
+      "upstream_path": "skills/social",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/73573e94a06a39965978b3fa1f9c1eace8cebc7c/skills/social",
+      "commit": "73573e94a06a39965978b3fa1f9c1eace8cebc7c",
+      "license": "MIT",
+      "files": [
+        {
+          "path": ".agents/skills/social/SKILL.md",
+          "upstream_path": "skills/social/SKILL.md",
+          "git_blob_sha": "504928b414c58e3f65114d384811d5df012022a5",
+          "upstream_sha256": "3082657de646386764881e7495d50de5b2ede53b15cd7c3b1f6d6a5d8a99f033",
+          "sha256": "3e34d32ba7744163921e610a320ba992be557ea0af0a36f66ecf3dd353b732ad",
+          "modified": true
+        },
+        {
+          "path": ".agents/skills/social/references/carousel-frameworks.md",
+          "upstream_path": "skills/social/references/carousel-frameworks.md",
+          "git_blob_sha": "76c65c3d34dfb43f9fdd672a9e55e48037a670aa",
+          "upstream_sha256": "e703aa530ec9f68cdf5b58e8e0d4d1a5cc3f22b9e2d3e3222f16a9763d423247",
+          "sha256": "04e7995e32f471952df5a5d18d697925b2d2bb59dab1299625a81f9bec0d521a",
+          "modified": true
+        },
+        {
+          "path": ".agents/skills/social/references/platform-limits.md",
+          "upstream_path": "skills/social/references/platform-limits.md",
+          "git_blob_sha": "94e1df9f22128ffc59e826c702c8a492b0e1bb03",
+          "upstream_sha256": "6ecc6b40ff82b95c48906341f7d3c58337671d4d94f624c858764f1ed5a77c3c",
+          "sha256": "6ecc6b40ff82b95c48906341f7d3c58337671d4d94f624c858764f1ed5a77c3c",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/social/references/platforms.md",
+          "upstream_path": "skills/social/references/platforms.md",
+          "git_blob_sha": "ed4408a0e601a234bf51632b631a07f1ac83c715",
+          "upstream_sha256": "bb8c2f466184518a1290edbea99eef6b7dcad8e1f8091453d4dc5a21831b66b9",
+          "sha256": "218de1214754e5932c05f90cc0ddd1f3be691414f6944d15a837007fbeba3a73",
+          "modified": true
+        },
+        {
+          "path": ".agents/skills/social/references/post-templates.md",
+          "upstream_path": "skills/social/references/post-templates.md",
+          "git_blob_sha": "10be33fe2104b3b984902deaa285d89963e18702",
+          "upstream_sha256": "9cca4680c95801daedfd8acadf9089d0083784c2567784888807569896f71d9b",
+          "sha256": "9cca4680c95801daedfd8acadf9089d0083784c2567784888807569896f71d9b",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/social/references/ship-post.md",
+          "upstream_path": "skills/social/references/ship-post.md",
+          "git_blob_sha": "6e9818ebe4ed2d6ea4b4f1c75e5ccd51f21e4fb2",
+          "upstream_sha256": "b9c60b300bc72d2540aef367bb1588b0e955dc1423303c5265b27a3dfb75f9b6",
+          "sha256": "cb1b98f1bf792e1225e41d1c84a56f8052bd345832664a726c28762ec73e76a9",
+          "modified": true
+        },
+        {
+          "path": ".agents/skills/social/references/short-form-video.md",
+          "upstream_path": "skills/social/references/short-form-video.md",
+          "git_blob_sha": "5cbe710a66e18ef2a0740fbdc9366bae9016ea03",
+          "upstream_sha256": "04b567900eaac90833f3abf370a3e1c4d650f83a0672108e07a7f01bde3a64ad",
+          "sha256": "d83fb9ff375b396cc12fd7aef0e4f5029266c72c910f0c2bff58224473fd7daa",
+          "modified": true
+        },
+        {
+          "path": ".agents/skills/social/LICENSE",
+          "upstream_path": "LICENSE",
+          "git_blob_sha": "7c48dd638a9ebed49a8ef0c0c4eea90105381cdf",
+          "upstream_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/social/SOURCE.md",
+          "sha256": "93ba8d24d941bfe4e950f93a9ad0216ec6271d44c1aeb2dc7d3b3b12869b41ef",
+          "generated_local": true
+        }
+      ],
+      "adaptations": [
+        "Añadidos license: MIT y límites Kevoro al inicio de SKILL.md.",
+        "Solo documentos Markdown y avisos de licencia. Las herramientas externas mencionadas no están instaladas ni autorizadas.",
+        "Ejemplos, cifras y recomendaciones de plataformas se conservan como material de referencia sujeto a verificación, no hechos de Kevoro ni garantías.",
+        "Retiradas instrucciones de conectar schedulers, publicar, enviar DMs y recopilar publicaciones de terceros.",
+        "Omitidos listening, reverse-engineering y x-algorithm y sus enlaces.",
+        "Retiradas afirmaciones universales de alcance y mejora estadística de subtítulos; se conserva accesibilidad.",
+        "ship-post devuelve borradores locales; no enlaces de acción ni borradores remotos.",
+        "Retirado del material Reels el calentamiento de cuentas, schedulers/API y umbrales de rendimiento; sustituido por producción local y evidencia."
+      ]
+    },
+    {
+      "name": "seo-audit",
+      "reason": "Revisar SEO técnico y de contenido, con hallazgos y comprobaciones explícitas.",
+      "installed_path": ".agents/skills/seo-audit",
+      "upstream_path": "skills/seo-audit",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/73573e94a06a39965978b3fa1f9c1eace8cebc7c/skills/seo-audit",
+      "commit": "73573e94a06a39965978b3fa1f9c1eace8cebc7c",
+      "license": "MIT",
+      "files": [
+        {
+          "path": ".agents/skills/seo-audit/SKILL.md",
+          "upstream_path": "skills/seo-audit/SKILL.md",
+          "git_blob_sha": "b33eecef416f2c5e5e2ae49eeafc3c81f88f445e",
+          "upstream_sha256": "fb345045339bb0645029c1c0d682703d262f045a7184fe96cb0e13f509468e2a",
+          "sha256": "d8aa7806665461dc997a11e860dfee3d0df09ffb9618cfe8fcebf4c2b86020ed",
+          "modified": true
+        },
+        {
+          "path": ".agents/skills/seo-audit/references/ai-writing-detection.md",
+          "upstream_path": "skills/seo-audit/references/ai-writing-detection.md",
+          "git_blob_sha": "cb67ece4135f4153575bbbdfbf722364babff61d",
+          "upstream_sha256": "f1e273f56ce7e2215ff218bf903680ddcec0fd026ab90c3ebfb3439ed0edfaa4",
+          "sha256": "f1e273f56ce7e2215ff218bf903680ddcec0fd026ab90c3ebfb3439ed0edfaa4",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/seo-audit/references/international-seo.md",
+          "upstream_path": "skills/seo-audit/references/international-seo.md",
+          "git_blob_sha": "35a7ad2aeadcbef2541563b0077d5f717e4b147d",
+          "upstream_sha256": "0603022cca968acf7889fc224221aa0e70955ba64355bc18b06f7e86b32f45e5",
+          "sha256": "0603022cca968acf7889fc224221aa0e70955ba64355bc18b06f7e86b32f45e5",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/seo-audit/references/local-seo-pages-and-measurement.md",
+          "upstream_path": "skills/seo-audit/references/local-seo-pages-and-measurement.md",
+          "git_blob_sha": "d49f0443e091c70e4778a4e33030a33d18a361a4",
+          "upstream_sha256": "20607ef91c4b8b37346f42130a6f51ed4ce64dc2731b6e1328b5b14f16917fe3",
+          "sha256": "20607ef91c4b8b37346f42130a6f51ed4ce64dc2731b6e1328b5b14f16917fe3",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/seo-audit/references/local-seo-profile-and-citations.md",
+          "upstream_path": "skills/seo-audit/references/local-seo-profile-and-citations.md",
+          "git_blob_sha": "d34b7e043cb7c4d2da114f04e986bd476a22d0c6",
+          "upstream_sha256": "83b1b63eb6083e7aab1f56c4928335ea2a235e837861a9e9e8043b6af162a1f3",
+          "sha256": "83b1b63eb6083e7aab1f56c4928335ea2a235e837861a9e9e8043b6af162a1f3",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/seo-audit/references/local-seo.md",
+          "upstream_path": "skills/seo-audit/references/local-seo.md",
+          "git_blob_sha": "c2636ada98809d6ed8db588040817adc332add5e",
+          "upstream_sha256": "d2666d9c225bc36f9737ce612894abbe7e263b5974e2db7c1efc50f6010bb376",
+          "sha256": "d2666d9c225bc36f9737ce612894abbe7e263b5974e2db7c1efc50f6010bb376",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/seo-audit/references/rankings-push.md",
+          "upstream_path": "skills/seo-audit/references/rankings-push.md",
+          "git_blob_sha": "5e3930e47e521cf3d27db2e7120ffde8ace3035d",
+          "upstream_sha256": "c21d6d4f9faf7ce5b1dc0f8bd508e7513967492fcd8ed9510a175ce243daf8c8",
+          "sha256": "c21d6d4f9faf7ce5b1dc0f8bd508e7513967492fcd8ed9510a175ce243daf8c8",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/seo-audit/references/title-tags.md",
+          "upstream_path": "skills/seo-audit/references/title-tags.md",
+          "git_blob_sha": "5d5eac8002179ac5288f3b4bbd2aa35b3a409a42",
+          "upstream_sha256": "c40b3c6af3600ca15670db8eb81000c7ca6fa25265a6550ccc630f53db3fcf51",
+          "sha256": "c40b3c6af3600ca15670db8eb81000c7ca6fa25265a6550ccc630f53db3fcf51",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/seo-audit/LICENSE",
+          "upstream_path": "LICENSE",
+          "git_blob_sha": "7c48dd638a9ebed49a8ef0c0c4eea90105381cdf",
+          "upstream_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/seo-audit/SOURCE.md",
+          "sha256": "86c8459d0e6737e29b546b43cd6c73aa5e58c9aeae27e003ae9a84ecce6572ca",
+          "generated_local": true
+        }
+      ],
+      "adaptations": [
+        "Añadidos license: MIT y límites Kevoro al inicio de SKILL.md.",
+        "Solo documentos Markdown y avisos de licencia. Las herramientas externas mencionadas no están instaladas ni autorizadas.",
+        "Ejemplos, cifras y recomendaciones de plataformas se conservan como material de referencia sujeto a verificación, no hechos de Kevoro ni garantías.",
+        "Sustituida mención del servicio retirado Mobile-Friendly Test por comprobaciones actuales en navegador/Lighthouse."
+      ]
+    },
+    {
+      "name": "schema",
+      "reason": "Proponer y validar datos estructurados que reflejen hechos visibles y comprobados.",
+      "installed_path": ".agents/skills/schema",
+      "upstream_path": "skills/schema",
+      "source_url": "https://github.com/coreyhaines31/marketingskills/tree/73573e94a06a39965978b3fa1f9c1eace8cebc7c/skills/schema",
+      "commit": "73573e94a06a39965978b3fa1f9c1eace8cebc7c",
+      "license": "MIT",
+      "files": [
+        {
+          "path": ".agents/skills/schema/SKILL.md",
+          "upstream_path": "skills/schema/SKILL.md",
+          "git_blob_sha": "a152e5e59496740caf18ba0f0c74f4ef0e383c39",
+          "upstream_sha256": "673fa46bad2f2d4649955c473b11778bd2d258317662df670b31414e28725a84",
+          "sha256": "fe1fac0c9e09e410c49071e15ac2da255f3e6818e66cb0beaa534499c83800d8",
+          "modified": true
+        },
+        {
+          "path": ".agents/skills/schema/references/schema-examples.md",
+          "upstream_path": "skills/schema/references/schema-examples.md",
+          "git_blob_sha": "014b5292ce46184a5cde223d3a528b3e48397b8f",
+          "upstream_sha256": "9b093bce816fac8494c8ccfd588eeb0c00e1308fe99bb46388ff222664ed94be",
+          "sha256": "9b093bce816fac8494c8ccfd588eeb0c00e1308fe99bb46388ff222664ed94be",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/schema/LICENSE",
+          "upstream_path": "LICENSE",
+          "git_blob_sha": "7c48dd638a9ebed49a8ef0c0c4eea90105381cdf",
+          "upstream_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "modified": false
+        },
+        {
+          "path": ".agents/skills/schema/SOURCE.md",
+          "sha256": "5c404bdd2203261445ad34b4980a51f14fb712547034ef1d2809cf9463302601",
+          "generated_local": true
+        }
+      ],
+      "adaptations": [
+        "Añadidos license: MIT y límites Kevoro al inicio de SKILL.md.",
+        "Solo documentos Markdown y avisos de licencia. Las herramientas externas mencionadas no están instaladas ni autorizadas.",
+        "Ejemplos, cifras y recomendaciones de plataformas se conservan como material de referencia sujeto a verificación, no hechos de Kevoro ni garantías."
+      ]
+    }
+  ],
+  "review_date_bogota": "2026-11-18"
+}

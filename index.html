@@ -1,68 +1,556 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kevoro — Software para negocios</title>
-<meta name="description" content="Kevoro crea software sencillo para negocios en Colombia: agendamiento de citas para clínicas y herramientas de gestión.">
-<style>
-  :root { --ink:#14213d; --muted:#5b6475; --accent:#2a6df4; --bg:#f7f8fb; }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color:var(--ink); background:var(--bg); line-height:1.6; }
-  .wrap { max-width:880px; margin:0 auto; padding:0 24px; }
-  header { padding:28px 0; }
-  .logo { font-weight:800; font-size:1.5rem; letter-spacing:-0.02em; }
-  .logo span { color:var(--accent); }
-  .hero { padding:56px 0 40px; }
-  h1 { font-size:clamp(2rem, 5vw, 3rem); line-height:1.15; letter-spacing:-0.02em; max-width:18ch; }
-  .lead { margin-top:16px; font-size:1.15rem; color:var(--muted); max-width:56ch; }
-  .btn { display:inline-block; margin-top:28px; background:var(--accent); color:#fff; text-decoration:none; padding:12px 22px; border-radius:10px; font-weight:600; }
-  h2 { font-size:1.4rem; margin-bottom:18px; }
-  section { padding:36px 0; }
-  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:18px; }
-  .card { background:#fff; border:1px solid #e3e7ef; border-radius:14px; padding:22px; }
-  .card h3 { font-size:1.1rem; margin-bottom:6px; }
-  .card p { color:var(--muted); }
-  .contact p { color:var(--muted); }
-  .contact a { color:var(--accent); font-weight:600; }
-  footer { padding:36px 0 48px; color:var(--muted); font-size:0.9rem; border-top:1px solid #e3e7ef; margin-top:24px; }
-</style>
-</head>
-<body>
-  <div class="wrap">
-    <header><div class="logo">Kevoro<span>.</span></div></header>
-
-    <div class="hero">
-      <h1>Software sencillo para que tu negocio funcione mejor.</h1>
-      <p class="lead">En Kevoro diseñamos y construimos herramientas digitales a la medida: agendamiento de citas, recordatorios por WhatsApp y gestión del día a día, pensadas para negocios en Colombia.</p>
-      <a class="btn" href="mailto:kevoro.company@gmail.com">Escríbenos</a>
-    </div>
-
-    <section>
-      <h2>Lo que hacemos</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>Basilia Connect</h3>
-          <p>Agenda de trabajo para clínicas: citas, médicos y recordatorios a pacientes por WhatsApp, en un solo lugar.</p>
+<!doctype html>
+<html lang="es-CO">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#164d43" />
+    <title>Kevoro · Software sencillo para tu negocio</title>
+    <meta
+      name="description"
+      content="Software sencillo, hecho en Bogotá: Basilia Connect para agendas de clínicas, herramientas de gestión y desarrollo a la medida. Conversemos sobre tu negocio."
+    />
+    <link rel="canonical" href="https://maconde971218.github.io/kevoro-web/" />
+    <meta property="og:title" content="Kevoro · Menos vueltas. Más negocio." />
+    <meta
+      property="og:description"
+      content="Agenda, gestión y software a la medida. Hecho en Bogotá, pensado para tu día a día."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CO" />
+    <meta
+      property="og:url"
+      content="https://maconde971218.github.io/kevoro-web/"
+    />
+    <meta
+      property="og:image"
+      content="https://maconde971218.github.io/kevoro-web/assets/compartir.png"
+    />
+    <meta
+      property="og:image:alt"
+      content="Kevoro. Menos vueltas. Más negocio. Software sencillo, hecho en Bogotá."
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="marca/logos/kevoro-pulso-symbol.svg"
+    />
+    <link
+      rel="preload"
+      href="assets/fonts/manrope-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script src="assets/config.js" defer></script>
+    <script src="assets/app.js" type="module"></script>
+  </head>
+  <body>
+    <a href="#contenido" class="skip-link">Saltar al contenido</a>
+    <header class="site-header wrap">
+      <a href="#inicio" class="brand"
+        ><img
+          src="marca/logos/kevoro-pulso-symbol.svg"
+          alt=""
+          width="34"
+          height="34"
+        /><span>kevoro<span class="brand-dot">.</span></span></a
+      >
+      <button
+        type="button"
+        id="menu-toggle"
+        aria-controls="site-nav"
+        aria-expanded="false"
+      >
+        Menú <span aria-hidden="true">☰</span>
+      </button>
+      <nav id="site-nav" aria-label="Principal">
+        <a href="#productos">Productos</a
+        ><a href="#como-funciona">Cómo funciona</a
+        ><a href="#nosotros">Sobre Kevoro</a
+        ><a class="nav-contact" href="#contacto"
+          >Conversemos <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
+    <main id="contenido">
+      <section id="inicio" class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="small-symbol" aria-hidden="true">✳</span> Software
+            sencillo. Hecho en Bogotá.
+          </p>
+          <h1 id="hero-title">Menos vueltas.<br /><span>Más negocio.</span></h1>
+          <p class="hero-description">
+            Tu tiempo es para hacer crecer tu negocio. Creamos software para que
+            organizarlo sea más sencillo.
+          </p>
+          <a href="#productos" class="button primary"
+            >Encuentra tu solución <span aria-hidden="true">↗</span></a
+          >
+          <p class="hero-note">
+            Agenda de citas, gestión y desarrollo a tu medida.
+          </p>
         </div>
-        <div class="card">
-          <h3>Herramientas de gestión</h3>
-          <p>Aplicaciones seguras para llevar cuentas, registros y seguimiento, con la información protegida.</p>
+        <div class="hero-art">
+          <div class="art-label">
+            <span aria-hidden="true">↗</span> Dale espacio a lo importante.
+          </div>
+          <div class="demo-window">
+            <div class="window-top">
+              <span class="window-dots" aria-hidden="true"
+                ><i></i><i></i><i></i></span
+              ><span>Tu negocio, en orden</span
+              ><span aria-hidden="true">⌘</span>
+            </div>
+            <div class="demo-tabs" role="tablist" aria-label="Explora una idea">
+              <button
+                type="button"
+                role="tab"
+                id="tab-agenda"
+                aria-controls="panel-agenda"
+                aria-selected="true"
+              >
+                Agenda</button
+              ><button
+                type="button"
+                role="tab"
+                id="tab-gestion"
+                aria-controls="panel-gestion"
+                aria-selected="false"
+                tabindex="-1"
+              >
+                Gestión</button
+              ><button
+                type="button"
+                role="tab"
+                id="tab-medida"
+                aria-controls="panel-medida"
+                aria-selected="false"
+                tabindex="-1"
+              >
+                A tu medida
+              </button>
+            </div>
+            <div
+              class="demo-panel"
+              id="panel-agenda"
+              role="tabpanel"
+              aria-labelledby="tab-agenda"
+              tabindex="0"
+            >
+              <div class="panel-heading">
+                <div>
+                  <p class="micro">Basilia Connect</p>
+                  <h2>Un día más claro.</h2>
+                </div>
+                <span class="mini-icon" aria-hidden="true">▦</span>
+              </div>
+              <div class="week" aria-hidden="true">
+                <span>Lun<b>1</b></span
+                ><span>Mar<b>2</b></span
+                ><span class="selected">Mié<b>3</b></span
+                ><span>Jue<b>4</b></span
+                ><span>Vie<b>5</b></span>
+              </div>
+              <div class="agenda-row">
+                <span class="time">09:00</span>
+                <div class="appointment">
+                  <span class="line-marker"></span>
+                  <div>
+                    <strong>Espacio de ejemplo</strong
+                    ><small>Agenda de citas</small>
+                  </div>
+                  <span aria-hidden="true">↗</span>
+                </div>
+              </div>
+              <div class="agenda-row">
+                <span class="time">10:00</span>
+                <div class="appointment secondary">
+                  <span class="line-marker"></span>
+                  <div>
+                    <strong>Tiempo disponible</strong
+                    ><small>Un lugar para cada cita</small>
+                  </div>
+                  <span aria-hidden="true">+</span>
+                </div>
+              </div>
+              <div class="demo-reminder">
+                <span class="check" aria-hidden="true">✓</span>
+                <div>
+                  <strong>Recordatorios por WhatsApp</strong
+                  ><small>Una conexión con tu agenda.</small>
+                </div>
+              </div>
+            </div>
+            <div
+              class="demo-panel"
+              id="panel-gestion"
+              role="tabpanel"
+              aria-labelledby="tab-gestion"
+              tabindex="0"
+              hidden
+            >
+              <div class="panel-heading">
+                <div>
+                  <p class="micro">Herramientas de gestión</p>
+                  <h2>Cada cosa, en su lugar.</h2>
+                </div>
+                <span class="mini-icon" aria-hidden="true">☷</span>
+              </div>
+              <div class="task-stack">
+                <div>
+                  <span class="task-icon" aria-hidden="true">✓</span
+                  ><span
+                    >Organizar pendientes<small
+                      >Menos notas sueltas</small
+                    ></span
+                  >
+                </div>
+                <div>
+                  <span class="task-icon blue" aria-hidden="true">▦</span
+                  ><span
+                    >Reunir información<small>Una vista más clara</small></span
+                  >
+                </div>
+                <div>
+                  <span class="task-icon peach" aria-hidden="true">↗</span
+                  ><span
+                    >Definir el siguiente paso<small
+                      >A la manera de tu negocio</small
+                    ></span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="demo-panel"
+              id="panel-medida"
+              role="tabpanel"
+              aria-labelledby="tab-medida"
+              tabindex="0"
+              hidden
+            >
+              <div class="panel-heading">
+                <div>
+                  <p class="micro">Desarrollo a la medida</p>
+                  <h2>Comienza con tu idea.</h2>
+                </div>
+                <span class="mini-icon" aria-hidden="true">✳</span>
+              </div>
+              <div class="idea-map">
+                <span>Tu necesidad</span><i aria-hidden="true">↓</i
+                ><strong>Una herramienta propia</strong
+                ><i aria-hidden="true">↓</i><span>Un siguiente paso claro</span>
+              </div>
+            </div>
+            <p class="demo-caption">
+              Ilustración conceptual · Sin datos reales
+            </p>
+          </div>
+          <span class="art-spark" aria-hidden="true">✳</span>
+          <div class="art-bottom">
+            <span>Simple por fuera.<br />Pensado por dentro.</span
+            ><span class="curved-arrow" aria-hidden="true">⤴</span>
+          </div>
         </div>
-        <div class="card">
-          <h3>Desarrollo a la medida</h3>
-          <p>Convertimos una idea de negocio en una aplicación web funcional, rápida de probar y fácil de usar.</p>
+      </section>
+      <div class="belief-bar">
+        <div class="wrap">
+          <span>Para negocios de verdad.</span
+          ><span class="belief-mark" aria-hidden="true">✳</span
+          ><span>Con necesidades de todos los días.</span
+          ><span class="belief-mark" aria-hidden="true">✳</span
+          ><span>Sin complicarlo todo.</span>
         </div>
       </div>
-    </section>
-
-    <section class="contact">
-      <h2>Contacto</h2>
-      <p>Correo: <a href="mailto:kevoro.company@gmail.com">kevoro.company@gmail.com</a></p>
-      <p>Bogotá, Colombia</p>
-    </section>
-
-    <footer>© 2026 Kevoro. Bogotá, Colombia.</footer>
-  </div>
-</body>
+      <section
+        id="productos"
+        class="products wrap section"
+        aria-labelledby="products-title"
+      >
+        <div class="section-heading">
+          <p class="eyebrow">Lo que hacemos</p>
+          <h2 id="products-title">
+            Un buen software empieza<br />por entender tu día.
+          </h2>
+          <p>
+            No todos los negocios necesitan lo mismo.<br />Encontremos lo que
+            tiene sentido para el tuyo.
+          </p>
+        </div>
+        <article id="basilia" class="product-feature">
+          <div class="product-copy">
+            <span class="product-label">Para clínicas</span>
+            <h3>Basilia Connect<span class="dot">.</span></h3>
+            <p>
+              La agenda de tu clínica, con recordatorios por WhatsApp. Una
+              herramienta para organizar las citas y acompañar la comunicación
+              del día a día.
+            </p>
+            <ul class="feature-list">
+              <li>Agenda de citas</li>
+              <li>Recordatorios por WhatsApp</li>
+            </ul>
+            <div class="product-actions">
+              <a
+                class="button primary"
+                data-demo="Basilia Connect"
+                href="#contacto"
+                >Solicitar demo <span aria-hidden="true">↗</span></a
+              ><button
+                class="text-button"
+                type="button"
+                data-whatsapp="Basilia Connect"
+              >
+                Escríbenos por WhatsApp
+              </button>
+            </div>
+          </div>
+          <div
+            class="basilia-art"
+            aria-label="Ilustración conceptual: una agenda conectada con un recordatorio"
+          >
+            <div class="basilia-emblem" aria-hidden="true">
+              b<span>✳</span>
+            </div>
+            <span class="basilia-word">basilia <small>connect</small></span>
+            <div class="connection-flow">
+              <span>Una cita en la agenda</span>
+              <div class="connection-line" aria-hidden="true">↓</div>
+              <span class="message-bubble"
+                ><span aria-hidden="true">✓</span> Un recordatorio por
+                WhatsApp</span
+              >
+            </div>
+            <p>Ilustración conceptual</p>
+          </div>
+        </article>
+        <div class="product-pair">
+          <article id="gestion" class="product-small management">
+            <div class="product-top">
+              <span class="product-label">Para el día a día</span
+              ><span class="product-glyph" aria-hidden="true">▦</span>
+            </div>
+            <h3>Menos dispersión.<br />Más organización.</h3>
+            <p>
+              Apps de gestión para ordenar tareas e información. Conversemos
+              sobre cómo trabajas y qué necesitas reunir en un solo lugar.
+            </p>
+            <div class="product-actions">
+              <a class="button outline" data-demo="Gestión" href="#contacto"
+                >Solicitar demo <span aria-hidden="true">↗</span></a
+              ><button
+                class="text-button"
+                type="button"
+                data-whatsapp="las apps de gestión"
+              >
+                Escríbenos por WhatsApp
+              </button>
+            </div>
+          </article>
+          <article id="medida" class="product-small custom">
+            <div class="product-top">
+              <span class="product-label">Para esa idea que tienes</span
+              ><span class="product-glyph" aria-hidden="true">✳</span>
+            </div>
+            <h3>Tu negocio tiene su forma.<br />Tu software también.</h3>
+            <p>
+              Desarrollo a la medida para convertir una necesidad concreta en
+              una herramienta propia. Empezamos por escuchar, no por llenarte de
+              funciones.
+            </p>
+            <div class="product-actions">
+              <a class="button outline" data-demo="A la medida" href="#contacto"
+                >Solicitar demo <span aria-hidden="true">↗</span></a
+              ><button
+                class="text-button"
+                type="button"
+                data-whatsapp="desarrollo a la medida"
+              >
+                Escríbenos por WhatsApp
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section
+        id="como-funciona"
+        class="how section"
+        aria-labelledby="how-title"
+      >
+        <div class="wrap">
+          <div class="section-heading">
+            <p class="eyebrow">Así empezamos</p>
+            <h2 id="how-title">
+              Primero tu negocio.<br />Después, la tecnología.
+            </h2>
+          </div>
+          <ol class="steps">
+            <li>
+              <span class="step-number">01</span>
+              <h3>Nos cuentas.</h3>
+              <p>Qué haces, cómo lo organizas y qué te está quitando tiempo.</p>
+            </li>
+            <li>
+              <span class="step-number">02</span>
+              <h3>Lo aterrizamos.</h3>
+              <p>
+                Revisamos una demo o planteamos una solución para tu necesidad.
+              </p>
+            </li>
+            <li>
+              <span class="step-number">03</span>
+              <h3>Decidimos contigo.</h3>
+              <p>
+                Acordamos alcance, próximos pasos y condiciones antes de
+                avanzar.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section
+        id="nosotros"
+        class="about wrap section"
+        aria-labelledby="about-title"
+      >
+        <div class="about-art" aria-hidden="true">
+          <img
+            src="marca/logos/kevoro-pulso-symbol.svg"
+            alt=""
+            width="220"
+            height="220"
+          /><span>Ideas claras.<br />Herramientas útiles.</span
+          ><small>Bogotá, Colombia <span>4° N · 74° O</span></small>
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">Hola, somos Kevoro.</p>
+          <h2 id="about-title">
+            Nos gusta la tecnología.<br />Nos importa para qué.
+          </h2>
+          <p>
+            Creamos software sencillo desde Bogotá para negocios que quieren
+            organizar mejor su trabajo.
+          </p>
+          <p>
+            Nos mueve una idea: una herramienta debe ayudarte a entender qué
+            sigue, sin obligarte a aprender un idioma nuevo.
+          </p>
+          <a href="#contacto" class="text-link"
+            >Hablemos de tu idea <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </section>
+      <section
+        id="contacto"
+        class="contact section"
+        aria-labelledby="contact-title"
+      >
+        <div class="wrap contact-grid">
+          <div class="contact-copy">
+            <p class="eyebrow">El siguiente paso es una conversación.</p>
+            <h2 id="contact-title">¿Qué podemos<br />hacer más simple?</h2>
+            <p>Cuéntanos qué necesita tu negocio.<br />Empecemos por ahí.</p>
+            <a class="email-link" href="mailto:kevoro.company@gmail.com"
+              >kevoro.company@gmail.com</a
+            ><span class="contact-star" aria-hidden="true">✳</span>
+          </div>
+          <form id="contact-form">
+            <div class="form-row">
+              <label for="nombre">Tu nombre <span>(opcional)</span></label
+              ><input
+                id="nombre"
+                name="nombre"
+                autocomplete="name"
+                maxlength="80"
+                placeholder="¿Cómo te llamas?"
+              />
+            </div>
+            <div class="form-row">
+              <label for="producto">¿Qué te interesa?</label
+              ><select id="producto" name="producto">
+                <option>Basilia Connect</option>
+                <option>Gestión</option>
+                <option>A la medida</option>
+                <option>Quiero orientación</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="mensaje">Cuéntanos un poco</label
+              ><textarea
+                id="mensaje"
+                name="mensaje"
+                rows="3"
+                maxlength="1200"
+                required
+                aria-describedby="privacy-note"
+                placeholder="Por ejemplo: quiero organizar la agenda de mi negocio."
+              ></textarea>
+              <p id="privacy-note" class="form-note">
+                No incluyas datos de pacientes ni información sensible.
+              </p>
+            </div>
+            <button type="submit" class="button lime">
+              Preparar mi correo <span aria-hidden="true">↗</span>
+            </button>
+            <p class="form-note">
+              Revisarás el mensaje en tu aplicación de correo antes de enviarlo.
+              Este formulario no guarda tus datos.
+            </p>
+            <div id="draft-ready" tabindex="-1" hidden>
+              <strong>Tu borrador está listo.</strong>
+              <p>
+                Ábrelo en tu aplicación de correo y revísalo antes de enviarlo.
+              </p>
+              <a
+                id="email-draft"
+                class="button primary"
+                href="mailto:kevoro.company@gmail.com"
+                >Abrir mi correo</a
+              >
+            </div>
+            <noscript
+              ><p>
+                Para contactarnos, escribe a
+                <a href="mailto:kevoro.company@gmail.com"
+                  >kevoro.company@gmail.com</a
+                >.
+              </p></noscript
+            >
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer wrap">
+      <a href="#inicio" class="brand"
+        ><img
+          src="marca/logos/kevoro-pulso-symbol.svg"
+          alt=""
+          width="30"
+          height="30"
+        /><span>kevoro.</span></a
+      >
+      <p>Software sencillo. Hecho en Bogotá.</p>
+      <small>© 2026 Kevoro</small>
+    </footer>
+    <dialog id="whatsapp-dialog" aria-labelledby="whatsapp-title">
+      <button
+        type="button"
+        id="close-dialog"
+        class="dialog-close"
+        aria-label="Cerrar"
+      >
+        ×</button
+      ><span class="dialog-symbol" aria-hidden="true">↗</span>
+      <h2 id="whatsapp-title">Sigamos por correo.</h2>
+      <p>
+        Estamos preparando nuestro canal de WhatsApp. Mientras tanto, cuéntanos
+        lo que necesitas por correo.
+      </p>
+      <a class="button primary" href="mailto:kevoro.company@gmail.com"
+        >Escribir a Kevoro</a
+      >
+    </dialog>
+  </body>
 </html>
