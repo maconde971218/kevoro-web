@@ -154,8 +154,50 @@ class SiteFlowMixin(BrowserSessionMixin):
         expect(self.page.get_by_role('heading', level=1)).to_have_count(1)
         expect(self.page.locator('img:not([alt])')).to_have_count(0)
         self.assert_no_horizontal_overflow()
+        self.page.evaluate("() => window.scrollTo({top: 0, left: 0, behavior: 'instant'})")
+        self.page.screenshot(path=str(RESULTS / f'web-{self.viewport["width"]}-viewport.png'),
+                             full_page=False)
         for product in PRODUCTS:
             expect(self.page.locator(f'article#{product}')).to_be_visible()
+
+    def test_axe_accessibility_on_page_and_open_dialog(self):
+        # Local audit dependency only; no remote script or certification claim.
+        self.page.add_script_tag(path=str(ROOT / 'node_modules/axe-core/axe.min.js'))
+        self.page.evaluate('() => document.fonts.ready.then(() => true)')
+        expect(self.page.get_by_role('textbox', name='Tu nombre (opcional)', exact=True)).to_be_visible()
+        expect(self.page.get_by_role('combobox', name='¿Qué te interesa?', exact=True)).to_be_visible()
+        expect(self.page.get_by_role('textbox', name='Cuéntanos un poco', exact=True)).to_be_visible()
+        reports = []
+        tags = ['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa']
+        try:
+            for state in ('page-with-contact-form', 'open-whatsapp-dialog'):
+                if state == 'open-whatsapp-dialog':
+                    self.page.locator('article#basilia button[data-whatsapp]').click()
+                    expect(self.page.get_by_role('dialog', name='Sigamos por correo.', exact=True)).to_be_visible()
+                reports.append(self.page.evaluate('''async ({state, tags}) => {
+                    const result = await axe.run(document, {
+                        runOnly: {type: 'tag', values: tags}
+                    });
+                    const summarize = entries => entries.map(entry => ({
+                        id: entry.id, impact: entry.impact, help: entry.help,
+                        nodes: entry.nodes.map(node => ({
+                            target: node.target, summary: node.failureSummary || null
+                        }))
+                    }));
+                    return {state, version: axe.version, tags,
+                        violations: summarize(result.violations),
+                        incomplete: summarize(result.incomplete)};
+                }''', {'state': state, 'tags': tags}))
+        finally:
+            name = self.id().replace('.', '-')
+            (RESULTS / f'{name}-axe.json').write_text(json.dumps({
+                'test': self.id(), 'viewport': self.viewport, 'reports': reports,
+                'scope': 'Automated checks only; incomplete results require manual review.',
+            }, ensure_ascii=False, indent=2), encoding='utf-8')
+        violations = [{'state': report['state'], 'id': violation['id'],
+                       'targets': [node['target'] for node in violation['nodes']]}
+                      for report in reports for violation in report['violations']]
+        self.assertEqual(violations, [], 'axe accessibility violations: ' + json.dumps(violations, ensure_ascii=False))
 
     def test_navigation_works_at_each_viewport(self):
         nav = self.page.locator('#site-nav')

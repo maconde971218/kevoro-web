@@ -34,8 +34,13 @@ def build_archive(output, root=ROOT):
     files = []
     for relative in PUBLIC_PARTS:
         path = root / relative
-        if path.is_symlink():
-            raise ValueError(f'Symlinks are not allowed in the preview: {relative}')
+        # A regular file can still be reached through a symlinked parent.
+        # Check the full allowlisted path before traversing or reading it.
+        component = root
+        for part in path.relative_to(root).parts:
+            component = component / part
+            if component.is_symlink():
+                raise ValueError(f'Symlinks are not allowed in the preview: {relative}')
         if not path.exists():
             raise ValueError(f'Missing preview file: {relative}')
         candidates = path.rglob('*') if path.is_dir() else [path]

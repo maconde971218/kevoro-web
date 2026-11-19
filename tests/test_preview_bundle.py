@@ -41,6 +41,12 @@ class PreviewBundleTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Symlinks'):
             build_archive(self.output, self.root)
 
+    def test_symlinked_parent_of_allowlisted_file_is_rejected(self):
+        (self.root / 'scripts').rename(self.root / 'outside-public-list')
+        (self.root / 'scripts').symlink_to(self.root / 'outside-public-list', target_is_directory=True)
+        with self.assertRaisesRegex(ValueError, 'Symlinks'):
+            build_archive(self.output, self.root)
+
     def test_hidden_file_within_assets_is_rejected(self):
         (self.root / 'assets' / '.private-fixture').write_text('synthetic fixture')
         with self.assertRaisesRegex(ValueError, 'Hidden files'):

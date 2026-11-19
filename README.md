@@ -27,6 +27,7 @@ Para activar WhatsApp, editar **únicamente `whatsappNumber` en `assets/config.j
 ## Pruebas
 
 ```sh
+npm ci
 npm test
 python3 -m pip install -r requirements-test.txt
 python3 -m playwright install --with-deps chromium
@@ -35,7 +36,7 @@ python3 .agents/skills/webapp-testing/scripts/with_server.py \
   -- python3 -m unittest discover -s tests -v
 ```
 
-La suite comprueba móvil de 320 y 390 px, escritorio de 1440 px, menú, pestañas, contacto, WhatsApp sin configurar, teclado, movimiento reducido, errores de consola y bloqueo de red externa. Cada prueba de navegador usa un contexto nuevo y `chromium_sandbox=True`; un fallo de arranque es error, nunca una prueba omitida. El CI guarda capturas, trazas y salida real, incluidos fallos.
+La suite comprueba móvil de 320 y 390 px, escritorio de 1440 px, menú, pestañas, contacto, WhatsApp sin configurar, teclado, movimiento reducido, errores de consola y bloqueo de red externa. axe-core revisa automáticamente la página con su formulario y el diálogo abierto; sus informes también señalan comprobaciones que requieren revisión manual y no equivalen a una certificación. Cada prueba de navegador usa un contexto nuevo y `chromium_sandbox=True`; un fallo de arranque es error, nunca una prueba omitida. El CI guarda capturas, trazas y salida real, incluidos fallos.
 
 La máquina inicial no permite iniciar Chromium/Firefox con sandbox activo. Tampoco abrió la vista previa administrada por fallo del relay. La evidencia válida de navegador debe venir del CI; no afirmar pruebas con lector de pantalla, dispositivo físico o navegadores adicionales que no se hayan ejecutado. La inspección temprana de la galería de marca se hizo sin sandbox de proceso y no sustituye la suite.
 
@@ -46,3 +47,5 @@ La máquina inicial no permite iniciar Chromium/Firefox con sandbox activo. Tamp
 3. Aprobar textos y piezas; decidir fecha de inicio de los 30 días. Nada está programado ni publicado en redes.
 
 El PR requiere además revisión de `kevoro-qa` (Claude) antes de merge. La aprobación de esta propuesta no implica nuevas certificaciones, garantías, precios ni compromisos comerciales.
+
+Herramientas de desarrollo: [Playwright de Microsoft](https://github.com/microsoft/playwright-python) (Apache-2.0, versión en `requirements-test.txt`) y [axe-core de Deque](https://github.com/dequelabs/axe-core) (MPL-2.0, versión y checksum en `package-lock.json`). Se instalan desde PyPI/npm únicamente para pruebas. No se incluyen ni ejecutan en la web de visitantes.

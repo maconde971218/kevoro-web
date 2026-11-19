@@ -28,6 +28,7 @@ jobs:
         shell: bash
         run: |
           mkdir -p test-results
+          npm ci
           set -o pipefail
           npm test 2>&1 | tee test-results/node-tests.log
       - name: Test desktop, mobile and narrow mobile
