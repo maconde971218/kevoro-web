@@ -153,6 +153,7 @@ class SiteFlowMixin(BrowserSessionMixin):
         expect(self.page.get_by_role('contentinfo')).to_have_count(1)
         expect(self.page.get_by_role('heading', level=1)).to_have_count(1)
         expect(self.page.locator('img:not([alt])')).to_have_count(0)
+        expect(self.page.get_by_role('img', name='Ilustración conceptual: una agenda conectada con un recordatorio', exact=True)).to_be_visible()
         self.assert_no_horizontal_overflow()
         self.page.evaluate("() => window.scrollTo({top: 0, left: 0, behavior: 'instant'})")
         self.page.screenshot(path=str(RESULTS / f'web-{self.viewport["width"]}-viewport.png'),
